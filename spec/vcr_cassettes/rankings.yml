@@ -1,0 +1,956 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.sportsnetwork.com:80/merge/tsnform.aspx?c=azcentral&page=golf-m/stand/WORLD-MEN-GOLF-RANK.htm
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      x-powered-by: 
+      - ASP.NET
+      x-aspnet-version: 
+      - 2.0.50727
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Microsoft-IIS/6.0
+      date: 
+      - Fri, 24 Jun 2011 02:39:50 GMT
+      content-length: 
+      - "110387"
+      set-cookie: 
+      - ASP.NET_SessionId=am10ve45j0b2xmz1uj2meb55; path=/; HttpOnly
+      cache-control: 
+      - private
+    body: |
+      
+      
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">    
+      <html xmlns="http://www.w3.org/1999/xhtml">
+      <head> 
+      	<title>arizona sports scores - sports statistic - sports updates</title>
+      	<meta name="keywords" content="Phoenix Arizona Sports Scores, NBA scores, MLB scores, NFL scores, NHL scores, WNBA Scores, Pro golf results" />
+      	<meta name="description" content="Phoenix Arizona Sports scores and statistics - Get professional and college sports scores, results and updates on azcentral.com." />
+      	
+      	<link href="http://www.azcentral.com/css/toolbox.css" media="screen" rel="stylesheet" type="text/css" />
+      	<link rel="stylesheet" type="text/css" href="http://www.azcentral.com/css/jquery.jcarousel.css" />
+      	<link rel="stylesheet" type="text/css" href="http://www.azcentral.com/css/bigcarousel.css" />
+      	<link rel="stylesheet" type="text/css" href="http://www.azcentral.com/css/sports.css" />
+      
+      
+      
+      
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.jcarousel.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.azc.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.azc.scanner2.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/ui.tabs.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.cookie.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.livequery.min.js"></script>
+      
+      <script type="text/javascript">
+      var adtech_selected = 1; // If site uses Adtech then value should be "1" else if it uses OAS then it should be "0"
+      var adtech_throttle = 4; // This variable controls the flow of adtech calls:0 = none;1 = 25%;2 = 50%;3 = 75%;>3 = 100%
+      var adtech_server = "gannett.gcion.com"; //Adtech Server Name
+      var adtechserver = adtech_server;
+      var adtechnetworkid =  "5111.1"; // 5111.1 // Adtech Network ID
+      var adtech_pagealias = "azcentral.com/sports/front";
+      
+      if ( typeof adtech_override != 'undefined' )  {
+      adtech_pagealias = adtech_override;
+      }
+      
+      if ( adtech_pagealias == '(none)' || adtech_pagealias == 'unknown' || adtech_pagealias == '' )  {
+          adtech_pagealias = 'azcentral.com/umbrella/front';
+      }
+      
+      var adtech_excludes = "Frame2";
+      if ( adtech_excludes == '(none)' )  {
+          adtech_excludes = '';
+      }
+      var ent= new RegExp(/\/(ent|members|thingstodo|jobs|realestate)\//);
+      if(!ent.test(window.location.href)) {
+      var checkM8_site_control = 1;
+      }
+      var rt_url = window.location; //retweet URL
+      </script>
+      
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.azc.adtech.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/checkm8header.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.form.js"></script>
+      
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.dimensions.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/jquery.scrollTo.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/toolbox.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/AC_RunActiveContent.js"></script>
+      
+      <script type="text/javascript" src="http://www.azcentral.com/js/azcanywhere.js"></script>
+      
+      
+      
+      <!-- NEXT 3 LINES ARE FOR TESTING -->
+      <!-- AZC_SECTION:  --><!-- echo var="AZC_SECTION"-->
+      <!-- AZC_BODY_CLASS:  --><!-- echo var="AZC_BODY_CLASS"-->
+      <!-- IE6?  --><!-- echo var="ie6"--> <!-- IE7?  --><!-- echo var="ie7"-->
+      
+      
+      <link type="text/css" rel="stylesheet" href="http://www.azcentral.com/css/newtopnav.css" />
+      <link rel="stylesheet" type="text/css" href="http://www.azcentral.com/css/azcbodyclass-sports.css" />
+      
+      
+      
+      	
+      
+      
+      <style type="text/css">
+      	#on-sports span { display:block !important; }
+      	
+      </style>
+      
+      <!--[if IE 6]>
+      	<style type="text/css">
+      		/* GIF REPLACEMENTS */
+      		/* #header, #subindex-header 	{ background-image:url(http://www.azcentral.com/imgs/topcurve-white-942px.gif); } */
+      		#topSearch li				{ background-image:url(/sportshttp://www.azcentral.com/imgs/bg-searchlinks-sports.gif); }
+      		#topGoButton				{ background-image:url(/sportshttp://www.azcentral.com/imgs/btn-go-sports.gif); }
+      		#keywordbox input, #address	{ background-image:url(/imgs/bg-topsearch-input.gif); }
+      		#topNav						{ background-image:url(/sportshttp://www.azcentral.com/imgs/bg-topnav-sports.gif) !important; }
+      	</style>
+      <![endif]-->
+      	<script src="http://www.azcentral.com/js/changeaff-new.js"></script>
+      
+      
+      <!--[if IE 6]><link href="http://www.azcentral.com/css/toolbox-ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+      <!--[if IE 7]><link href="http://www.azcentral.com/css/toolbox-ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+      <!--[if IE 8]><link href="http://www.azcentral.com/css/toolbox-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+      
+      	<script type="text/javascript">
+      		jQuery.azc.fasttabs('#sptTopHeadlines ul.aptHedTabs', {fxFade: true, fxSpeed: 'fast' });
+      		jQuery.azc.fasttabs('#sptDexWNoPic-preps_athletes ul#prepsAthletesTabs', {fxFade: true, fxSpeed: 'fast' });
+      		jQuery.azc.fasttabs('#sptVoicesWrap ul#sptVoicesTabs', {fxFade: true, fxSpeed: 'fast' });
+      	</script>
+      
+      
+      <style type="text/css">
+      	.tsnws10teamsnav a,
+      	.tsnws10teamsnav a:link, 
+      	.tsnws10teamsnav a:visited, 
+      	.tsnws10teamsnav a:active { color: #D99109; }
+      	.tsnws10homenav a,
+      	.tsnws10homenav a:link, 
+      	.tsnws10homenav a:visited, 
+      	.tsnws10homenav a:active { color: #D99109; }
+      	.TSN2 a,
+      	.TSN2 a:link, 
+      	.TSN2 a:visited, 
+      	.TSN2 a:active { color: #fff; }
+      	.TSN1h { font-size: 10px; }
+      	.TSN5h { font-size: 10px; }
+      	.TSN9 a,
+      	.TSN9 a:link, 
+      	.TSN9 a:visited, 
+      	.TSN9 a:active { color: #999; }
+      	
+      	.nhlplayoffs11finalstopnav a, .nhlplayoffs11finalstopnav a:link, .nhlplayoffs11finalstopnav a:visited, .nhlplayoffs11finalstopnav a:active {
+          color: #ffffff;
+      	text-decoration: underline;}
+      	
+      	.nhlplayoffs11finalstopnav2 a, .nhlplayoffs11finalstopnav2 a:link, .nhlplayoffs11finalstopnav2 a:visited, .nhlplayoffs11finalstopnav2 a:active {
+          color: #ffffff;}
+      
+      
+      	.nhlplayoffs10links2 a, .nhlplayoffs10links2 a:link, .nhlplayoffs10links2 a:visited, .nhlplayoffs10links2 a:active {
+          color: #ffffff;}
+      </style>
+      
+      </head>
+      
+      <body id="sports">
+      	<div id="peelbackAd"><script type="text/javascript">OAS_AD('Frame2')</script></div>
+      	<div id="azcWrap" class="sectionSpt">
+      		<div id="top728x90" class="ad728x90"><script type="text/javascript">OAS_AD('728x90_1')</script></div>
+      		<div id="subindex-header">
+      			<a href="http://www.azcentral.com/" title="azcentral.com - Arizona's Home Page"><img src="http://i.azcentral.com/imgs/logo-azc-nobev.png" id="azcentral-sublogo" alt="azcentral.com - Arizona's Home Page" width="240" height="60" class="png" /></a>
+      
+      			<div id="topSearch">
+      				<!--<form action="http://localsearch.azcentral.com/sp" method="get" name="searchform" id="searchform">-->
+      				<form action="http://www.azcentral.com/results.php" method="get" name="searchform" id="searchform">
+      					<ul>
+      						<li id="search-all-azcentral"></li>
+      						<li id="search-articles"></li>
+      						<li id="search-calendar"></li>
+      						<li id="search-yellowpages"></li>
+      						<li id="search-more"></li>
+      					</ul>
+      					<input type="hidden" name="catId" />
+      					<input type="hidden" name="aff" id="aff" value="1100" />
+      					<input type="hidden" name="searchkeyword" id="searchkeyword" value="" />
+      					<input type="hidden" name="searchcategory" id="searchcategory" value="*" />
+      
+                <!-- FOR GOOGLE SEARCH -->
+                  <input type="hidden" name="cx" value="015840973018584549539:4mugrvjtm6k" />
+                  <input type="hidden" name="cof" value="FORID:9" />
+                  <input type="hidden" name="ie" value="UTF-8" />
+                <!-- END GOOGLE -->
+      
+      					<div id="simplesearch"><span id="biztitle"></span>
+                  <span id="keywordbox">
+                    <input type="text" style="width: 270px;" name="q" id="keywords" maxlength="250" />
+                  </span> 
+                  <span id="cityZipForm">AZ City or ZIP <input type="text" id="address" name="address" style="width: 50px;" maxlength="100"/></span></div>
+      					<input type="submit" id="topGoButton" value="" onclick="$('form#searchform').submit();return false;" />
+      				</form>
+      				<div id="searchSponsor">
+      					&#8226; <a href="http://www.azcentral.com/thingstodo/movies/" title="phoenix movies search">Movies</a><br />
+      					&#8226; <a href="http://www.azcentral.com/thingstodo/dining/" title="phoenix dining search">Dining</a><br />
+      					&#8226; <a href="http://print.coupons.com/alink.asp?go=14970ys4410" title="grocery coupons">Free Coupons</a><br />
+      					&#8226; <a href="http://pqasb.pqarchiver.com/azcentral/" title="Republic archives">Archives</a>
+      				</div>
+      			</div>
+      			<div id="loginBox">
+      				<!-- nclude virtual="/incs/1/azc_topnav_userbox.inc"-->
+      			</div>
+      			
+      			
+      			<!--  incs/1/topnav-new.inc -->
+      			<div id="topNav">     
+      				<div id="nav">
+      					<ul>
+      						<li id="on-news"><a href="http://www.azcentral.com/news/" title="phoenix, national, world news">News</a><span></span></li>
+      						<li id="on-sports"><a href="http://www.azcentral.com/sports/" title="arizona sports news">Sports</a><span></span></li>
+      						<li id="on-business"><a href="http://www.azcentral.com/business/" title="arizona business news">Money</a><span></span></li>
+      						<li id="on-thingstodo"><a href="http://www.azcentral.com/thingstodo/" title="phoenix entertainment, events calendar">Things To Do</a><span></span></li>
+      						<li id="on-style"><a href="http://www.azcentral.com/style/" title="style, fashion news">Style</a><span></span></li>
+      						<li id="on-travel"><a href="http://www.azcentral.com/travel/" title="arizona travel, vacation guide">Travel</a><span></span></li>
+      						<li id="on-moms"><a href="http://phoenix.momslikeme.com" title="momslikeme.com">Moms</a><span></span></li>
+      						<li id="on-pets"><a href="http://www.azcentral.com/pets/" title="phoenix pets for sale, phoenix pet adoptions">Pets</a><span></span></li>
+      						<li id="on-weather"><a href="http://www.azcentral.com/weather/" title="arizona weather forecasts, temperatures">Weather</a><span></span></li>
+      						<li id="on-health"><a href="http://www.azcentral.com/health/" title="phoenix health and fitness">Health</a><span></span></li>
+      						<li id="on-food"><a href="http://www.azcentral.com/style/hfe/fooddex.html" title="free recipes, southwest food">Food</a><span></span></li>
+      						<li id="on-home"><a href="http://www.azcentral.com/style/hfe/" title="arizona homes, arizona gardening">Home</a><span></span></li>
+      						<li id="on-deals" class="last"><a href="http://www.azcentral.com/deals/" title="phoenix shopping deals">Deals</a><span></span></li>
+      					</ul>
+      				</div>
+      				<div id="mp">
+      					<ul>
+      						<li id="mpFirstLI"><a href="http://www.azcentral.com/jobs/" title="Phoenix Jobs">Jobs</a><span></span></li>
+      						<li id="mpCarsLI"><a href="http://www.cars.com/go/index.jsp?aff=azcentr" title="phoenix arizona cars for sale">Cars</a></li>
+      						<li id="mpHomesLI"><a href="http://www.azcentral.com/realestate/" title="phoenix homes for sale">Real Estate</a><span></span></li>
+      						<li id="mpRentalsLI"><a href="http://www.azcentral.com/realestate/republicrentals.html" title="phoenix apartments for rent">Rentals</a></li>
+      						<li class="last" id="mpClassifiedLI"><a href="http://www.azcentral.com/class/" title="arizona republic classified ads">Classified</a></li>
+      					</ul>
+      				</div>
+      				<div id="subnav">
+      					<ul>
+      					
+      						<li class="first"><a href="http://www.azcentral.com/sports/suns/" title="Phoenix Suns basketball">Suns</a></li>
+      						<li><a href="http://www.azcentral.com/sports/cardinals/" title="Arizona Cardinals football">Cardinals</a></li>
+      						<li><a href="http://www.azcentral.com/sports/diamondbacks/" title="Arizona Diamondbacks baseball">Diamondbacks</a></li>
+      						<li><a href="http://www.azcentral.com/sports/coyotes/" title="Phoenix Coyotes hockey">Coyotes</a></li>
+      						<li><a href="http://www.azcentral.com/sports/asu/" title="ASU sports">ASU</a></li>
+      						<li><a href="http://www.azcentral.com/sports/ua/" title="University of Arizona sports">UA</a></li>
+      						<li><a href="http://www.azcentral.com/sports/preps/" title="Arizona high school sports">High Schools</a></li>
+      						<li><a href="http://www.azcentral.com/sports/golf/" title="Arizona golf">Golf</a></li>
+      						<li><a href="http://azcentral.golfnow.com/" title="Arizona golf tee times">Tee Times</a></li>
+      						<li><a href="http://www.azcentral.com/sports/azetc/" title="More Sports">More Sports<!-- Sports --></a></li>
+      						<li><a href="http://www.azcentral.com/sports/statsindex.html" title="Arizona sports scores and stats">Scores &amp; Stats</a></li>
+      						<!-- <li><a href="/blogs/new/bloglist.php?blogtype=SPORTS" title="Arizona sports blogs">Blogs</a></li> -->
+      						<li><a href="http://www.azcentral.com/sports/heatindex/articles/ontv.html" title="Sports on TV">On TV</a></li>
+      			            <li><a href="http://azcentral.sportsballot.com" title="Pick ems">Pick 'ems</a></li>
+      						<li><a href="http://www.azcentral.com/blogs/new/bloglist.php?blogtype=SPORTS" title="Arizona sports blogs">Blogs</a></li>
+      						<li><a href="http://www.footballfanatics.com/partnerID/1058" title="Arizona sports clothing">Team Shop</a></li>
+      					
+      					</ul>
+      				</div>	
+      			</div>
+      			
+      			<div id="jobsDrop" class="marketplaceBox clearfix">
+      				<div class="marketplaceArrow"></div>
+      				<a href="http://www.azcentral.com/jobs/" title="Arizona jobs"><img src="http://i.azcentral.com/imgs/logo_careerbuilder_mp.jpg" width="74" height="14" border="0" alt="Phoenix AZ Jobs in Arizona" /></a>
+      				<ul>
+      					<li><a href="http://www.azcentral.com/jobs/" title="Phoenix AZ jobs">Phoenix jobs</a></li>
+      					<li><a href="http://www.careerbuilder.com/JobSeeker/Resumes/PostResumeNew/PostYourResume.aspx?lr=cbga_tap">Post Resume</a></li>
+      					<li><a href="http://azcentral.gannettonline.com/careerbuilder/employers04/recruitment.html">Find an Employee</a></li> 
+      					<li><a href="http://www.expoexpertsllc.com/030810-phoenix.html" title="Phoenix job fairs">Job Fairs &amp; Events</a></li>
+      					<li><a href="http://www.virtualcareerevent.com/phoenix" title="Phoenix Career Event">Virtual Career Event</a></li>
+      				</ul>
+      			</div>
+      			<div id="carsDrop" class="marketplaceBox clearfix">
+      				<div class="marketplaceArrow"></div>
+      				<a href="http://www.cars.com/go/index.jsp?aff=azcentr" title="Cars for sale in Phoenix"><img src="http://i.azcentral.com/imgs/logo_cars_mp.jpg" width="74" height="32" border="0" alt="phoenix cars for sale" /></a>
+      				<ul>
+      					<li><a href="http://www.cars.com/go/index.jsp?aff=azcentr" title="Cars for sale in Phoenix">Find a New or Used Car</a></li>
+      					<li><a href="http://siy.cars.com/siy/zipEntry.jsp?aff=azcentr" title="Sell your car">Sell a Car</a></li>
+      					<li><a href="http://www.cars.com/go/crp/index.jsp?aff=azcentr">Research &amp; Blue Book Value</a></li>
+      					<li><a href="http://www.cars.com/go/dealersearch/specials.jsp?specialsURL=http%3a%2f%2fcars.adperfect.com%2findex%2faffiliate%2findex.html%3fapn%3dazcentr&amp;apn=azcentr&amp;aff=azcentr" title="Phoenix used car deals">Used Specials</a> | <a href="http://www.cars.com/go/dealersearch/specials.jsp?specialsURL=http%3a%2f%2fcars.adperfect.com%2findex%2faffiliate%2findex.new.html%3fapn%3dazcentr&amp;apn=azcentr&amp;aff=azcentr" title="Phoenix new car deals">New Specials</a></li>
+      					<li><a href="http://www.azcentral.com/class/auto/" title="Phoenix motorcycles, boats, RVs, off road">Cycles, Boats, RVs &amp; More</a></li>
+      				</ul>
+      			</div>
+      			<div id="homesDrop" class="marketplaceBox clearfix">
+      				<div class="marketplaceArrow"></div>
+      				<a href="http://www.azcentral.com/realestate/" title="Phoenix homes for sale"><img src="http://i.azcentral.com/imgs/logo_realestate_mp.jpg" width="74" height="21" border="0" alt="phoenix homes for sale" /></a>
+      				<ul>
+      					<li><a href="http://www.azcentral.com/realestate/" title="Phoenix homes for sale">Find a Home</a> | <a href="http://www.azcentral.com/realestate/homebuyer/" title="First time homebuyers advice">First-time buyers</a></li>
+      					<li><a href="http://www.azcentral.com/class/real/">Find Other Real Estate</a></li>
+      					<li><a href="https://phoenix-re.ppgmti.com/custom/bridge.shtml">Sell Your Home</a></li>
+      					<li><a href="http://www.azcentral.com/arizonarepublic/advertise/republicadvertising/">Agents, Advertise Your Listings</a></li>
+      					<li><a href="http://www.azcentral.com/realestate/exclusiveestates/">Exclusive Estates</a></li>
+      				</ul>
+      			</div>
+      			<div id="rentalsDrop" class="marketplaceBox clearfix">
+      				<div class="marketplaceArrow"></div>
+      				<a href="http://www.azcentral.com/realestate/republicrentals.html" title="Phoenix Apartments for rent"><img src="http://i.azcentral.com/imgs/logo_apartments_mp.jpg" width="74" height="22" border="0" alt="Arizona Rental" /></a>
+      				<ul>
+      					<li><a href="http://www.azcentral.com/realestate/republicrentals.html" title="Arizona Apartments and Rentals">Find a Rental</a></li>
+      					<li><a href="http://www.apartments.com/partner/Index_QS.aspx?p=azcentr&amp;page=cityqs&amp;state=xx&amp;partner=azcentr">Search by City, ZIP</a></li>
+      					<li><a href="http://www.azcentral.com/advert/reprentals/">Request Apts.com Magazine</a></li>
+      					<li><a href="https://phoenix-apt.ppgmti.com/custom/pkgselect.shtml">Rent Your Home</a></li>
+      					<li><a href="https://phoenix.re.gmti.com/aa/">Managers, Advertise Vacancies</a></li>
+      				</ul>
+      			</div>
+      			<div id="classifiedDrop" class="marketplaceBox clearfix">
+      				<div class="marketplaceArrow"></div>
+      				<a href="http://classified.azcentral.com/" title="Arizona Republic classified ads"><img src="http://i.azcentral.com/imgs/logo_classified_mp.jpg" width="74" height="20" border="0" alt="arizona republic classifiedads" /></a>
+      				<ul>
+      					<li><a href="http://classified.azcentral.com/" title="Arizona Republic classified ads">Find an Ad</a></li>
+      					<li><a href="https://advertise.azcentral.com/webbasep/index.jsp">Place an Ad</a></li>
+      					<li><a href="http://www.azcentral.com/pets/class/" title="Phoenix pets for sale">Pets</a></li>
+      					<li><a href="http://www.azcentral.com/deals/class/">Merchandise &amp; Stuff</a> | <a href="http://www.azcentral.com/class/services/">Services</a></li>
+      					<li><a href="http://www.azcentral.com/class/results.php?searchcategory=6000,6010,6020,6030,6040,6045,6050,6060,6070,6143,6150,6160,6170,6180,6190,6210,6220,6230,6240,6250,6270">Announcements &amp; Celebrations</a></li>
+      				</ul>
+      			</div>
+      <!-- end topnav-news.inc -->
+      		</div>
+      		
+      		<div id="topcurve-white-942px"></div>
+      
+      		<div id="openWrap" class="clearfix">
+      			<div id="wideOpen" class="generalStoryStyle">
+      				<h6 class="sptSubHeaderText" id="sptstatsleft">Scores &amp; Stats</h6>
+      				<p>
+      
+      
+      <style>
+      <!--
+      .navItem {color:#000000; font-family:Arial,Verdana,Helvetica; font-size:12px;}
+      .navItem a {color:#000000; text-decoration:none;}
+      .navItem a:hover {color:#999999; text-decoration:none;}
+      
+      .sportTitle {font-family:Arial,Verdana,Helvetica; font-size:18px; font-weight:bold;}
+      .tsnid {font-family:Verdana,Helvetica,Arial; font-size:10px;}
+      .tsnid a {color:#000000;}
+      .tsnid a:hover {color:#999999; text-decoration:none;}
+      pre {font-size:12px;}
+      
+      .TSN1 {font: 10px Verdana,Helvetica,Arial;}
+      .TSN1 a {color:#000000; text-decoration:underline;}
+      .TSN1 a:hover {color:#999999; text-decoration:none;}
+      
+      .TSN1a {font: 12px Verdana,Helvetica,Arial; font-weight: bold;}
+      .TSN1b {color:#000000; font: 10px Verdana,Helvetica,Arial; font-weight: bold;}
+      .TSN1c {font: 10px Verdana,Helvetica,Arial; font-weight: bold;}
+      .TSN1d {font: 16px Verdana,Helvetica,Arial; font-weight: bold;}
+      .TSN1e {font: 10px Verdana,Helvetica,Arial;}
+      
+      .TSN2 {color:#FFFFFF; font: 10px Verdana,Helvetica,Arial; font-weight: bold; background:#670400;}
+      .TSN2 a {color:#FFFFFF; text-decoration:underline;}
+      .TSN2 a:hover {color:#999999; text-decoration:none;}
+      
+      .TSN3 {color:#FFFFFF; font: 10px Verdana,Helvetica,Arial; background:#000066;}
+      .TSN4 {color:#FFFFFF; font: 11px Verdana,Helvetica,Arial; font-weight: bold; background:#2b2b2b;}
+      
+      .TSN5 {font: 10px Verdana,Helvetica,Arial; background:#CCCCCC;}
+      .TSN5 a {color:#000000; text-decoration:underline;}
+      .TSN5 a:hover {color:#999999; text-decoration:none;}
+      .TSN5c {font: 10px Verdana,Helvetica,Arial;}
+      
+      .TSN6 {color:#FFFFFF; font: 11px Verdana,Helvetica,Arial; font-weight: bold; background:#2b2b2b;}
+      
+      .TSN7 {font: 11px Verdana,Helvetica,Arial; background:#FFFFFF;}
+      
+      .TSN8 {color:#FFFFFF; font: 10px Verdana,Helvetica,Arial; font-weight: bold; background:#2b2b2b;}
+      .TSN8 a {color:#FFFFFF; text-decoration:underline;}
+      .TSN8 a:hover {color:#999999; text-decoration:none;}
+      
+      .TSN9 {color:#FFFFFF; font: 10px Verdana,Helvetica,Arial; font-weight: bold; background:#670400;}
+      .TSN9 a {color:#FFFFFF; text-decoration:none;}
+      .TSN9 a:hover {color:#999999;}
+      
+      .TSN10 {color:#FFFFFF; font: 10px Verdana,Helvetica,Arial; font-weight: bold; background:#EFEFEF;}
+      .TSN10 a {color:#000000; text-decoration:underline;}
+      .TSN10 a:hover {color:#999999; text-decoration:none;}
+      
+      .SNtitle { font-size: 12px; font-family: Arial; font-weight:bold; text-decoration:none; color:#000000; text-align: center; }
+      .SNheadlines { display: none; }
+      .SNHeadWrapper { float: right; width: 200px; display: inline; text-align: center; margin: 10px 0px; padding: 0px 10px; clear: right; }
+      .SNAd { float: right; width: 300px; display: inline; text-align: center; margin: 10px 0px; padding: 0px 10px; clear: right; }
+      .SNPhoto { display: none; }
+      .SNheadlines li { list-style: disc outside; padding-left: 0px; margin-left: 0px; font-size: 11px; font-family: Arial; }
+      .SNheadlines ul { padding-left: 0px; margin-left: 10px; }
+      .SNHeadTitle { font-size: 11px; font-weight: bold; font-family: Arial; text-align: center; }
+      .SNbody {font-size: 12px; font-family: Arial; color: #000000; text-decoration: none; margin: 1px 1px; padding: 1px 1px;}
+      .SNMainHeadlines { font-size: 11px; font-family: Arial; text-decoration:none; color:#000000; }
+      .SNMainHeadlines li { font-size: 11px; font-family: Arial; color:#000000;}
+      .SNMainHeadlines a { font-size: 11px; font-family: Arial; text-decoration:none; color:#000000;}
+      .SNMainHeadlines a:hover { font-size: 11px; font-family: Arial; text-decoration:none; color:#000000;}
+      .SNTeamTitle { font-size: 14px; font-family: Arial; text-decoration:none; color:#000000; text-align: center;}
+      .SNBigScore { width: 30px; padding: 5px; font-weight: bold; font-size: 20px; text-align: center; vertical-align: middle; font-family: Arial; }
+      .SNGame { padding: 10px 0px; text-align: center; }
+      .SNPreview { font-size: 12px; font-family: Arial; color: #000000; text-decoration: none; margin: 1px 1px; padding: 1px 1px; }
+      .SNRecap { font-size: 12px; font-family: Arial; color: #000000; text-decoration: none; margin: 1px 1px; padding: 1px 1px; }
+      .SNETTZ { font: 11px Arial; font-weight: bold;}
+      .SNCTTZ { display: none; }
+      .SNMTTZ { display: none; }
+      .SNPTTZ { display: none; }
+      .SNGMTTZ { display: none; }
+      .SNsmallETTZ { font: 10px Arial;}
+      .SNsmallCTTZ { display: none; }
+      .SNsmallMTTZ { display: none; }
+      .SNsmallPTTZ { display: none; }
+      .SNsmallGMTTZ { display: none; }
+      -->
+      </style>
+      
+      <!-- CONTENT AREA -->
+      
+      <table width="100%" border="0" cellpadding="3" cellspacing="0">
+      <tr><td colspan="3" class="sportTitle">PGA Tour</td></tr>
+      
+      <tr>
+      <td valign="top" width="33%" class="navItem">	
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/alltime-pga-winners.htm">All-Time Wins</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/scores/field.aspx?sportcode=BE,id=">Field</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/scores/leaderboard.aspx?sportcode=BE,id=">Leaderboard</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/pga-money-leaders.htm">Money Leaders</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/news/indexsn.aspx?sport=BE">News</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/odds/golf-odds-pga.htm">Odds</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/GL_playerlist.aspx">Player Bios</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/PGA-PREVIEW.htm">Preview</A><br>
+      </td>
+      
+      <td valign="top" width="33%" class="navItem">	
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/news/recap.htm">Recap</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/schedule.aspx?sc=BE">Results/Schedule</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/stats.aspx">Statistics</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/tee-times.htm">Tee Times</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/pga-top10.htm">Top-10 Finishes</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stat/WORLD-PGA-MONEY-LEADERS.htm">World Money Leaders</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-m/stand/WORLD-MEN-GOLF-RANK.htm">World Rankings</A><br>
+      </td>
+      
+      <td valign="top" width="33%" class="navItem">	
+      <b>More Golf</b><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-ca/news/indexsn.aspx?sport=AQ">Canadian Tour</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-s/news/indexsn.aspx?sport=BK">Champions Tour</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-e/news/indexsn.aspx?sport=BS">European PGA Tour</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-w/news/indexsn.aspx?sport=BD">LPGA Tour</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-n/news/indexsn.aspx?sport=BT">Nationwide Tour</A><br>
+      <b>&#183;</b> <a href="/merge/tsnform.aspx?c=azcentral&page=golf-u/news/indexsn.aspx?sport=DG">USGA</A><br>
+      </td>
+      </tr>
+      </table>
+      
+      <table width="100%" border="0" cellpadding="2" cellspacing="0">
+      <tr><td valign="top">
+      <br>
+      <div align="center" class="TSN1d">World Golf Ranking</div>
+      <div align="center" class="TSN1a">(as of Sunday, June 19th, 2011)</div><br>
+      <table border="0" width="100%">
+      <tr><td class="TSN2" align="center" width="10%">Rank</td><td class="TSN2" align="left" width="30%">Player</td><td class="TSN2" align="left" width="15%">Country</td><td class="TSN2" align="left" width="15%">Avg</td><td class="TSN2" align="left" width="15%">Pts</td><td class="TSN2" align="left" width="15%">Evts</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">1</td><td class="TSN1" align="left" width="30%">Luke Donald</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">9.06</td><td class="TSN1" align="left" width="15%">480.41</td><td class="TSN1" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">2</td><td class="TSN5" align="left" width="30%">Lee Westwood</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">8.80</td><td class="TSN5" align="left" width="15%">422.59</td><td class="TSN5" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">3</td><td class="TSN1" align="left" width="30%">Martin Kaymer</td><td class="TSN1" align="left" width="15%">Deu</td><td class="TSN1" align="left" width="15%">7.22</td><td class="TSN1" align="left" width="15%">353.89</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">4</td><td class="TSN5" align="left" width="30%">Rory McIlroy</td><td class="TSN5" align="left" width="15%">Nir</td><td class="TSN5" align="left" width="15%">7.19</td><td class="TSN5" align="left" width="15%">380.93</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">5</td><td class="TSN1" align="left" width="30%">Steve Stricker</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">6.50</td><td class="TSN1" align="left" width="15%">266.51</td><td class="TSN1" align="left" width="30%">41</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">6</td><td class="TSN5" align="left" width="30%">Phil Mickelson</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">6.01</td><td class="TSN5" align="left" width="15%">270.50</td><td class="TSN5" align="left" width="30%">45</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">7</td><td class="TSN1" align="left" width="30%">Matt Kuchar</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">5.67</td><td class="TSN1" align="left" width="15%">295.08</td><td class="TSN1" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">8</td><td class="TSN5" align="left" width="30%">Graeme McDowell</td><td class="TSN5" align="left" width="15%">Nir</td><td class="TSN5" align="left" width="15%">5.53</td><td class="TSN5" align="left" width="15%">304.12</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">9</td><td class="TSN1" align="left" width="30%">Jason Day</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">5.47</td><td class="TSN1" align="left" width="15%">240.69</td><td class="TSN1" align="left" width="30%">44</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">10</td><td class="TSN5" align="left" width="30%">Charl Schwartzel</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">5.24</td><td class="TSN5" align="left" width="15%">293.59</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">11</td><td class="TSN1" align="left" width="30%">Dustin Johnson</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">5.11</td><td class="TSN1" align="left" width="15%">250.37</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">12</td><td class="TSN5" align="left" width="30%">Paul Casey</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">4.99</td><td class="TSN5" align="left" width="15%">219.57</td><td class="TSN5" align="left" width="30%">44</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">13</td><td class="TSN1" align="left" width="30%">Bubba Watson</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">4.87</td><td class="TSN1" align="left" width="15%">228.66</td><td class="TSN1" align="left" width="30%">47</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">14</td><td class="TSN5" align="left" width="30%">Ian Poulter</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">4.72</td><td class="TSN5" align="left" width="15%">245.49</td><td class="TSN5" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">15</td><td class="TSN1" align="left" width="30%">Nick Watney</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">4.64</td><td class="TSN1" align="left" width="15%">236.54</td><td class="TSN1" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">16</td><td class="TSN5" align="left" width="30%">K.J. Choi</td><td class="TSN5" align="left" width="15%">Kor</td><td class="TSN5" align="left" width="15%">4.39</td><td class="TSN5" align="left" width="15%">232.59</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">17</td><td class="TSN1" align="left" width="30%">Tiger Woods</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">4.38</td><td class="TSN1" align="left" width="15%">175.04</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">18</td><td class="TSN5" align="left" width="30%">Robert Karlsson</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">4.16</td><td class="TSN5" align="left" width="15%">195.49</td><td class="TSN5" align="left" width="30%">47</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">19</td><td class="TSN1" align="left" width="30%">Jim Furyk</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">4.10</td><td class="TSN1" align="left" width="15%">196.99</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">20</td><td class="TSN5" align="left" width="30%">Hunter Mahan</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">4.07</td><td class="TSN5" align="left" width="15%">215.66</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">21</td><td class="TSN1" align="left" width="30%">Adam Scott</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">3.98</td><td class="TSN1" align="left" width="15%">190.99</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">22</td><td class="TSN5" align="left" width="30%">Francesco Molinari</td><td class="TSN5" align="left" width="15%">Ita</td><td class="TSN5" align="left" width="15%">3.95</td><td class="TSN5" align="left" width="15%">213.53</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">23</td><td class="TSN1" align="left" width="30%">Ernie Els</td><td class="TSN1" align="left" width="15%">Zaf</td><td class="TSN1" align="left" width="15%">3.82</td><td class="TSN1" align="left" width="15%">213.68</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">24</td><td class="TSN5" align="left" width="30%">Alvaro Quiros</td><td class="TSN5" align="left" width="15%">Esp</td><td class="TSN5" align="left" width="15%">3.72</td><td class="TSN5" align="left" width="15%">200.69</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">25</td><td class="TSN1" align="left" width="30%">Martin Laird</td><td class="TSN1" align="left" width="15%">Sco</td><td class="TSN1" align="left" width="15%">3.71</td><td class="TSN1" align="left" width="15%">204.05</td><td class="TSN1" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">26</td><td class="TSN5" align="left" width="30%">Retief Goosen</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">3.65</td><td class="TSN5" align="left" width="15%">204.21</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">27</td><td class="TSN1" align="left" width="30%">David Toms</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">3.54</td><td class="TSN1" align="left" width="15%">177.00</td><td class="TSN1" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">28</td><td class="TSN5" align="left" width="30%">Miguel Angel Jimenez</td><td class="TSN5" align="left" width="15%">Esp</td><td class="TSN5" align="left" width="15%">3.53</td><td class="TSN5" align="left" width="15%">197.48</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">29</td><td class="TSN1" align="left" width="30%">Matteo Manassero</td><td class="TSN1" align="left" width="15%">Ita</td><td class="TSN1" align="left" width="15%">3.41</td><td class="TSN1" align="left" width="15%">136.31</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">30</td><td class="TSN5" align="left" width="30%">Justin Rose</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">3.34</td><td class="TSN5" align="left" width="15%">180.51</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">31</td><td class="TSN1" align="left" width="30%">Louis Oosthuizen</td><td class="TSN1" align="left" width="15%">Zaf</td><td class="TSN1" align="left" width="15%">3.30</td><td class="TSN1" align="left" width="15%">178.21</td><td class="TSN1" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">32</td><td class="TSN5" align="left" width="30%">Tim Clark</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">3.22</td><td class="TSN5" align="left" width="15%">138.42</td><td class="TSN5" align="left" width="30%">43</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">33</td><td class="TSN1" align="left" width="30%">Y.E. Yang</td><td class="TSN1" align="left" width="15%">Kor</td><td class="TSN1" align="left" width="15%">3.15</td><td class="TSN1" align="left" width="15%">176.27</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">34</td><td class="TSN5" align="left" width="30%">Zach Johnson</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">3.15</td><td class="TSN5" align="left" width="15%">160.47</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">35</td><td class="TSN1" align="left" width="30%">Geoff Ogilvy</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">3.15</td><td class="TSN1" align="left" width="15%">154.17</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">36</td><td class="TSN5" align="left" width="30%">Kim Kyung-Tae</td><td class="TSN5" align="left" width="15%">Kor</td><td class="TSN5" align="left" width="15%">3.12</td><td class="TSN5" align="left" width="15%">174.44</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">37</td><td class="TSN1" align="left" width="30%">Edoardo Molinari</td><td class="TSN1" align="left" width="15%">Ita</td><td class="TSN1" align="left" width="15%">3.09</td><td class="TSN1" align="left" width="15%">172.93</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">38</td><td class="TSN5" align="left" width="30%">Anders Hansen</td><td class="TSN5" align="left" width="15%">Dnk</td><td class="TSN5" align="left" width="15%">2.96</td><td class="TSN5" align="left" width="15%">157.11</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">39</td><td class="TSN1" align="left" width="30%">Gary Woodland</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.96</td><td class="TSN1" align="left" width="15%">118.26</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">40</td><td class="TSN5" align="left" width="30%">Peter Hanson</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">2.92</td><td class="TSN5" align="left" width="15%">149.11</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">41</td><td class="TSN1" align="left" width="30%">Robert Allenby</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">2.87</td><td class="TSN1" align="left" width="15%">160.83</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">42</td><td class="TSN5" align="left" width="30%">Bo Van Pelt</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.87</td><td class="TSN5" align="left" width="15%">160.80</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">43</td><td class="TSN1" align="left" width="30%">Brandt Snedeker</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.84</td><td class="TSN1" align="left" width="15%">159.01</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">44</td><td class="TSN5" align="left" width="30%">Jonathan Byrd</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.83</td><td class="TSN5" align="left" width="15%">147.36</td><td class="TSN5" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">45</td><td class="TSN1" align="left" width="30%">Bill Haas</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.79</td><td class="TSN1" align="left" width="15%">153.60</td><td class="TSN1" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">46</td><td class="TSN5" align="left" width="30%">Ryan Moore</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.71</td><td class="TSN5" align="left" width="15%">135.70</td><td class="TSN5" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">47</td><td class="TSN1" align="left" width="30%">Ben Crane</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.69</td><td class="TSN1" align="left" width="15%">134.42</td><td class="TSN1" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">48</td><td class="TSN5" align="left" width="30%">Rory Sabbatini</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">2.67</td><td class="TSN5" align="left" width="15%">149.42</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">49</td><td class="TSN1" align="left" width="30%">Ryan Palmer</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.62</td><td class="TSN1" align="left" width="15%">146.72</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">50</td><td class="TSN5" align="left" width="30%">Rickie Fowler</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.59</td><td class="TSN5" align="left" width="15%">137.28</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">51</td><td class="TSN1" align="left" width="30%">Aaron Baddeley</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">2.54</td><td class="TSN1" align="left" width="15%">137.17</td><td class="TSN1" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">52</td><td class="TSN5" align="left" width="30%">Padraig Harrington</td><td class="TSN5" align="left" width="15%">Irl</td><td class="TSN5" align="left" width="15%">2.53</td><td class="TSN5" align="left" width="15%">139.17</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">53</td><td class="TSN1" align="left" width="30%">Ryo Ishikawa</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">2.52</td><td class="TSN1" align="left" width="15%">141.01</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">54</td><td class="TSN5" align="left" width="30%">Ross Fisher</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">2.48</td><td class="TSN5" align="left" width="15%">121.50</td><td class="TSN5" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">55</td><td class="TSN1" align="left" width="30%">J.B. Holmes</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.47</td><td class="TSN1" align="left" width="15%">118.39</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">56</td><td class="TSN5" align="left" width="30%">Mark Wilson</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.42</td><td class="TSN5" align="left" width="15%">135.29</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">57</td><td class="TSN1" align="left" width="30%">Lucas Glover</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.34</td><td class="TSN1" align="left" width="15%">112.34</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">58</td><td class="TSN5" align="left" width="30%">Charley Hoffman</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.31</td><td class="TSN5" align="left" width="15%">124.59</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">59</td><td class="TSN1" align="left" width="30%">Vijay Singh</td><td class="TSN1" align="left" width="15%">Fji</td><td class="TSN1" align="left" width="15%">2.28</td><td class="TSN1" align="left" width="15%">111.96</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">60</td><td class="TSN5" align="left" width="30%">Webb Simpson</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.28</td><td class="TSN5" align="left" width="15%">127.68</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">61</td><td class="TSN1" align="left" width="30%">Stephen Marino</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.22</td><td class="TSN1" align="left" width="15%">122.06</td><td class="TSN1" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">62</td><td class="TSN5" align="left" width="30%">Yuta Ikeda</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">2.20</td><td class="TSN5" align="left" width="15%">122.98</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">63</td><td class="TSN1" align="left" width="30%">Anthony Kim</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.19</td><td class="TSN1" align="left" width="15%">107.10</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">64</td><td class="TSN5" align="left" width="30%">Sergio Garcia</td><td class="TSN5" align="left" width="15%">Esp</td><td class="TSN5" align="left" width="15%">2.17</td><td class="TSN5" align="left" width="15%">106.40</td><td class="TSN5" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">65</td><td class="TSN1" align="left" width="30%">Kevin Na</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.17</td><td class="TSN1" align="left" width="15%">119.43</td><td class="TSN1" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">66</td><td class="TSN5" align="left" width="30%">Brendan Jones</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">2.17</td><td class="TSN5" align="left" width="15%">88.96</td><td class="TSN5" align="left" width="30%">41</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">67</td><td class="TSN1" align="left" width="30%">Jason Dufner</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.17</td><td class="TSN1" align="left" width="15%">112.68</td><td class="TSN1" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">68</td><td class="TSN5" align="left" width="30%">Camilo Villegas</td><td class="TSN5" align="left" width="15%">Col</td><td class="TSN5" align="left" width="15%">2.16</td><td class="TSN5" align="left" width="15%">116.90</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">69</td><td class="TSN1" align="left" width="30%">Jeff Overton</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.15</td><td class="TSN1" align="left" width="15%">114.00</td><td class="TSN1" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">70</td><td class="TSN5" align="left" width="30%">Hiroyuki Fujita</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">2.07</td><td class="TSN5" align="left" width="15%">115.86</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">71</td><td class="TSN1" align="left" width="30%">Robert Garrigus</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">2.03</td><td class="TSN1" align="left" width="15%">103.59</td><td class="TSN1" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">72</td><td class="TSN5" align="left" width="30%">Simon Dyson</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">2.03</td><td class="TSN5" align="left" width="15%">113.59</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">73</td><td class="TSN1" align="left" width="30%">Thomas Bjorn</td><td class="TSN1" align="left" width="15%">Dnk</td><td class="TSN1" align="left" width="15%">2.00</td><td class="TSN1" align="left" width="15%">96.04</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">74</td><td class="TSN5" align="left" width="30%">Stewart Cink</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">2.00</td><td class="TSN5" align="left" width="15%">97.94</td><td class="TSN5" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">75</td><td class="TSN1" align="left" width="30%">Scott Verplank</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.97</td><td class="TSN1" align="left" width="15%">80.95</td><td class="TSN1" align="left" width="30%">41</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">76</td><td class="TSN5" align="left" width="30%">Thomas Aiken</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">1.85</td><td class="TSN5" align="left" width="15%">101.88</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">77</td><td class="TSN1" align="left" width="30%">Gregory Bourdy</td><td class="TSN1" align="left" width="15%">Fra</td><td class="TSN1" align="left" width="15%">1.85</td><td class="TSN1" align="left" width="15%">101.55</td><td class="TSN1" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">78</td><td class="TSN5" align="left" width="30%">Ricky Barnes</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.83</td><td class="TSN5" align="left" width="15%">97.22</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">79</td><td class="TSN1" align="left" width="30%">Raphael Jacquelin</td><td class="TSN1" align="left" width="15%">Fra</td><td class="TSN1" align="left" width="15%">1.82</td><td class="TSN1" align="left" width="15%">101.99</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">80</td><td class="TSN5" align="left" width="30%">David Horsey</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">1.79</td><td class="TSN5" align="left" width="15%">93.21</td><td class="TSN5" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">81</td><td class="TSN1" align="left" width="30%">Nicolas Colsaerts</td><td class="TSN1" align="left" width="15%">Bel</td><td class="TSN1" align="left" width="15%">1.77</td><td class="TSN1" align="left" width="15%">88.32</td><td class="TSN1" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">82</td><td class="TSN5" align="left" width="30%">Alexander Noren</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">1.76</td><td class="TSN5" align="left" width="15%">96.64</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">83</td><td class="TSN1" align="left" width="30%">John Senden</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">1.75</td><td class="TSN1" align="left" width="15%">98.27</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">84</td><td class="TSN5" align="left" width="30%">Johan Edfors</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">1.75</td><td class="TSN5" align="left" width="15%">89.15</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">85</td><td class="TSN1" align="left" width="30%">Heath Slocum</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.74</td><td class="TSN1" align="left" width="15%">97.69</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">86</td><td class="TSN5" align="left" width="30%">Noh Seung-yul</td><td class="TSN5" align="left" width="15%">Kor</td><td class="TSN5" align="left" width="15%">1.72</td><td class="TSN5" align="left" width="15%">85.90</td><td class="TSN5" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">87</td><td class="TSN1" align="left" width="30%">Angel Cabrera</td><td class="TSN1" align="left" width="15%">Arg</td><td class="TSN1" align="left" width="15%">1.69</td><td class="TSN1" align="left" width="15%">72.70</td><td class="TSN1" align="left" width="30%">43</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">88</td><td class="TSN5" align="left" width="30%">Stephen Gallacher</td><td class="TSN5" align="left" width="15%">Sco</td><td class="TSN5" align="left" width="15%">1.69</td><td class="TSN5" align="left" width="15%">75.94</td><td class="TSN5" align="left" width="30%">45</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">89</td><td class="TSN1" align="left" width="30%">Stuart Appleby</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">1.68</td><td class="TSN1" align="left" width="15%">93.98</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">90</td><td class="TSN5" align="left" width="30%">Sean O'Hair</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.67</td><td class="TSN5" align="left" width="15%">85.24</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">91</td><td class="TSN1" align="left" width="30%">Jhonattan Vegas</td><td class="TSN1" align="left" width="15%">Ven</td><td class="TSN1" align="left" width="15%">1.66</td><td class="TSN1" align="left" width="15%">88.08</td><td class="TSN1" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">92</td><td class="TSN5" align="left" width="30%">Spencer Levin</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.66</td><td class="TSN5" align="left" width="15%">93.00</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">93</td><td class="TSN1" align="left" width="30%">Thongchai Jaidee</td><td class="TSN1" align="left" width="15%">Tha</td><td class="TSN1" align="left" width="15%">1.66</td><td class="TSN1" align="left" width="15%">92.92</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">94</td><td class="TSN5" align="left" width="30%">Richard Green</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">1.66</td><td class="TSN5" align="left" width="15%">76.18</td><td class="TSN5" align="left" width="30%">46</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">95</td><td class="TSN1" align="left" width="30%">Brian Davis</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">1.64</td><td class="TSN1" align="left" width="15%">91.81</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">96</td><td class="TSN5" align="left" width="30%">Toru Taniguchi</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">1.60</td><td class="TSN5" align="left" width="15%">73.62</td><td class="TSN5" align="left" width="30%">46</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">97</td><td class="TSN1" align="left" width="30%">Tetsuji Hiratsuka</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">1.60</td><td class="TSN1" align="left" width="15%">89.59</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">98</td><td class="TSN5" align="left" width="30%">Darren Clarke</td><td class="TSN5" align="left" width="15%">Nir</td><td class="TSN5" align="left" width="15%">1.59</td><td class="TSN5" align="left" width="15%">84.39</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">99</td><td class="TSN1" align="left" width="30%">Keegan Bradley</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.58</td><td class="TSN1" align="left" width="15%">74.48</td><td class="TSN1" align="left" width="30%">47</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">100</td><td class="TSN5" align="left" width="30%">Rhys Davies</td><td class="TSN5" align="left" width="15%">Wal</td><td class="TSN5" align="left" width="15%">1.58</td><td class="TSN5" align="left" width="15%">88.61</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">101</td><td class="TSN1" align="left" width="30%">D.A. Points</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.57</td><td class="TSN1" align="left" width="15%">87.69</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">102</td><td class="TSN5" align="left" width="30%">Carl Pettersson</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">1.57</td><td class="TSN5" align="left" width="15%">87.67</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">103</td><td class="TSN1" align="left" width="30%">Jamie Donaldson</td><td class="TSN1" align="left" width="15%">Wal</td><td class="TSN1" align="left" width="15%">1.56</td><td class="TSN1" align="left" width="15%">77.94</td><td class="TSN1" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">104</td><td class="TSN5" align="left" width="30%">Tommy Gainey</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.56</td><td class="TSN5" align="left" width="15%">87.23</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">105</td><td class="TSN1" align="left" width="30%">Marc Leishman</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">1.53</td><td class="TSN1" align="left" width="15%">85.41</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">106</td><td class="TSN5" align="left" width="30%">Robert Rock</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">1.50</td><td class="TSN5" align="left" width="15%">83.95</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">107</td><td class="TSN1" align="left" width="30%">Chris Kirk</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.49</td><td class="TSN1" align="left" width="15%">71.48</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">108</td><td class="TSN5" align="left" width="30%">Brendon de Jonge</td><td class="TSN5" align="left" width="15%">Zwe</td><td class="TSN5" align="left" width="15%">1.49</td><td class="TSN5" align="left" width="15%">83.25</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">109</td><td class="TSN1" align="left" width="30%">Bae Sang-moon</td><td class="TSN1" align="left" width="15%">Kor</td><td class="TSN1" align="left" width="15%">1.47</td><td class="TSN1" align="left" width="15%">58.77</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">110</td><td class="TSN5" align="left" width="30%">Fredrik Jacobson</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">1.46</td><td class="TSN5" align="left" width="15%">76.03</td><td class="TSN5" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">111</td><td class="TSN1" align="left" width="30%">Brandt Jobe</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.46</td><td class="TSN1" align="left" width="15%">75.90</td><td class="TSN1" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">112</td><td class="TSN5" align="left" width="30%">Charlie Wi</td><td class="TSN5" align="left" width="15%">Kor</td><td class="TSN5" align="left" width="15%">1.46</td><td class="TSN5" align="left" width="15%">81.73</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">113</td><td class="TSN1" align="left" width="30%">Davis Love III</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.45</td><td class="TSN1" align="left" width="15%">71.11</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">114</td><td class="TSN5" align="left" width="30%">Paul Goydos</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.42</td><td class="TSN5" align="left" width="15%">72.35</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">115</td><td class="TSN1" align="left" width="30%">Charles Howell III</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.40</td><td class="TSN1" align="left" width="15%">78.56</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">116</td><td class="TSN5" align="left" width="30%">Michio Matsumura</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">1.40</td><td class="TSN5" align="left" width="15%">74.06</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">117</td><td class="TSN1" align="left" width="30%">Liang Wen-Chong</td><td class="TSN1" align="left" width="15%">Chn</td><td class="TSN1" align="left" width="15%">1.40</td><td class="TSN1" align="left" width="15%">62.87</td><td class="TSN1" align="left" width="30%">45</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">118</td><td class="TSN5" align="left" width="30%">Danny Willett</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">1.38</td><td class="TSN5" align="left" width="15%">68.79</td><td class="TSN5" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">119</td><td class="TSN1" align="left" width="30%">Kevin Streelman</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.37</td><td class="TSN1" align="left" width="15%">76.86</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">120</td><td class="TSN5" align="left" width="30%">Chris Wood</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">1.37</td><td class="TSN5" align="left" width="15%">69.97</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">121</td><td class="TSN1" align="left" width="30%">Fredrik Andersson Hed</td><td class="TSN1" align="left" width="15%">Swe</td><td class="TSN1" align="left" width="15%">1.37</td><td class="TSN1" align="left" width="15%">71.19</td><td class="TSN1" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">122</td><td class="TSN5" align="left" width="30%">Gregory Havret</td><td class="TSN5" align="left" width="15%">Fra</td><td class="TSN5" align="left" width="15%">1.36</td><td class="TSN5" align="left" width="15%">74.83</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">123</td><td class="TSN1" align="left" width="30%">Joost Luiten</td><td class="TSN1" align="left" width="15%">Nld</td><td class="TSN1" align="left" width="15%">1.35</td><td class="TSN1" align="left" width="15%">61.91</td><td class="TSN1" align="left" width="30%">46</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">124</td><td class="TSN5" align="left" width="30%">Henrik Stenson</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">1.34</td><td class="TSN5" align="left" width="15%">63.02</td><td class="TSN5" align="left" width="30%">47</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">125</td><td class="TSN1" align="left" width="30%">Brian Gay</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.33</td><td class="TSN1" align="left" width="15%">74.58</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">126</td><td class="TSN5" align="left" width="30%">Kim Do-Hoon</td><td class="TSN5" align="left" width="15%">Kor</td><td class="TSN5" align="left" width="15%">1.33</td><td class="TSN5" align="left" width="15%">53.24</td><td class="TSN5" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">127</td><td class="TSN1" align="left" width="30%">Jbe' Kruger</td><td class="TSN1" align="left" width="15%">Zaf</td><td class="TSN1" align="left" width="15%">1.33</td><td class="TSN1" align="left" width="15%">66.33</td><td class="TSN1" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">128</td><td class="TSN5" align="left" width="30%">James Kingston</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">1.32</td><td class="TSN5" align="left" width="15%">71.01</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">129</td><td class="TSN1" align="left" width="30%">Chris Couch</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.31</td><td class="TSN1" align="left" width="15%">52.46</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">130</td><td class="TSN5" align="left" width="30%">Koumei Oda</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">1.31</td><td class="TSN5" align="left" width="15%">69.30</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">131</td><td class="TSN1" align="left" width="30%">Soren Kjeldsen</td><td class="TSN1" align="left" width="15%">Dnk</td><td class="TSN1" align="left" width="15%">1.30</td><td class="TSN1" align="left" width="15%">73.07</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">132</td><td class="TSN5" align="left" width="30%">Kevin Chappell</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.30</td><td class="TSN5" align="left" width="15%">67.49</td><td class="TSN5" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">133</td><td class="TSN1" align="left" width="30%">Rafael Cabrera Bello</td><td class="TSN1" align="left" width="15%">Esp</td><td class="TSN1" align="left" width="15%">1.29</td><td class="TSN1" align="left" width="15%">72.06</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">134</td><td class="TSN5" align="left" width="30%">Siddikur Rahman</td><td class="TSN5" align="left" width="15%">Ban</td><td class="TSN5" align="left" width="15%">1.27</td><td class="TSN5" align="left" width="15%">50.74</td><td class="TSN5" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">135</td><td class="TSN1" align="left" width="30%">Harrison Frazar</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.26</td><td class="TSN1" align="left" width="15%">50.38</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">136</td><td class="TSN5" align="left" width="30%">Shunsuke Sonoda</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">1.26</td><td class="TSN5" align="left" width="15%">50.22</td><td class="TSN5" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">137</td><td class="TSN1" align="left" width="30%">Shingo Katayama</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">1.25</td><td class="TSN1" align="left" width="15%">60.07</td><td class="TSN1" align="left" width="30%">48</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">138</td><td class="TSN5" align="left" width="30%">Peter Lawrie</td><td class="TSN5" align="left" width="15%">Irl</td><td class="TSN5" align="left" width="15%">1.22</td><td class="TSN5" align="left" width="15%">64.55</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">139</td><td class="TSN1" align="left" width="30%">Paul Lawrie</td><td class="TSN1" align="left" width="15%">Sco</td><td class="TSN1" align="left" width="15%">1.21</td><td class="TSN1" align="left" width="15%">59.35</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">140</td><td class="TSN5" align="left" width="30%">Marcus Fraser</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">1.19</td><td class="TSN5" align="left" width="15%">60.63</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">141</td><td class="TSN1" align="left" width="30%">Gareth Maybin</td><td class="TSN1" align="left" width="15%">Nir</td><td class="TSN1" align="left" width="15%">1.19</td><td class="TSN1" align="left" width="15%">61.76</td><td class="TSN1" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">142</td><td class="TSN5" align="left" width="30%">Brendan Steele</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.17</td><td class="TSN5" align="left" width="15%">65.63</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">143</td><td class="TSN1" align="left" width="30%">Tadahiro Takayama</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">1.17</td><td class="TSN1" align="left" width="15%">57.12</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">144</td><td class="TSN5" align="left" width="30%">Matthew Jones</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">1.16</td><td class="TSN5" align="left" width="15%">61.67</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">145</td><td class="TSN1" align="left" width="30%">Brett Rumford</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">1.15</td><td class="TSN1" align="left" width="15%">61.04</td><td class="TSN1" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">146</td><td class="TSN5" align="left" width="30%">Jerry Kelly</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.14</td><td class="TSN5" align="left" width="15%">63.84</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">147</td><td class="TSN1" align="left" width="30%">David Lynn</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">1.13</td><td class="TSN1" align="left" width="15%">55.28</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">148</td><td class="TSN5" align="left" width="30%">Jimmy Walker</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.13</td><td class="TSN5" align="left" width="15%">61.89</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">149</td><td class="TSN1" align="left" width="30%">Ryuji Imada</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">1.12</td><td class="TSN1" align="left" width="15%">62.96</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">150</td><td class="TSN5" align="left" width="30%">Vaughn Taylor</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.12</td><td class="TSN5" align="left" width="15%">59.36</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">151</td><td class="TSN1" align="left" width="30%">Tom Gillis</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.11</td><td class="TSN1" align="left" width="15%">54.45</td><td class="TSN1" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">152</td><td class="TSN5" align="left" width="30%">Kiradech Aphibarnrat</td><td class="TSN5" align="left" width="15%">Tha</td><td class="TSN5" align="left" width="15%">1.11</td><td class="TSN5" align="left" width="15%">62.20</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">153</td><td class="TSN1" align="left" width="30%">Robert-Jan Derksen</td><td class="TSN1" align="left" width="15%">Nld</td><td class="TSN1" align="left" width="15%">1.10</td><td class="TSN1" align="left" width="15%">57.16</td><td class="TSN1" align="left" width="30%">52</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">154</td><td class="TSN5" align="left" width="30%">Thorbjorn Olesen</td><td class="TSN5" align="left" width="15%">Dnk</td><td class="TSN5" align="left" width="15%">1.08</td><td class="TSN5" align="left" width="15%">50.99</td><td class="TSN5" align="left" width="30%">47</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">155</td><td class="TSN1" align="left" width="30%">Richie Ramsay</td><td class="TSN1" align="left" width="15%">Sco</td><td class="TSN1" align="left" width="15%">1.08</td><td class="TSN1" align="left" width="15%">59.30</td><td class="TSN1" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">156</td><td class="TSN5" align="left" width="30%">Greg Chalmers</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">1.07</td><td class="TSN5" align="left" width="15%">59.95</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">157</td><td class="TSN1" align="left" width="30%">Arjun Atwal</td><td class="TSN1" align="left" width="15%">Ind</td><td class="TSN1" align="left" width="15%">1.06</td><td class="TSN1" align="left" width="15%">54.24</td><td class="TSN1" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">158</td><td class="TSN5" align="left" width="30%">Pat Perez</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.06</td><td class="TSN5" align="left" width="15%">57.33</td><td class="TSN5" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">159</td><td class="TSN1" align="left" width="30%">John Parry</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">1.06</td><td class="TSN1" align="left" width="15%">59.31</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">160</td><td class="TSN5" align="left" width="30%">Daisuke Maruyama</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">1.06</td><td class="TSN5" align="left" width="15%">59.29</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">161</td><td class="TSN1" align="left" width="30%">Gary Boyd</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">1.06</td><td class="TSN1" align="left" width="15%">53.89</td><td class="TSN1" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">162</td><td class="TSN5" align="left" width="30%">Damien McGrane</td><td class="TSN5" align="left" width="15%">Irl</td><td class="TSN5" align="left" width="15%">1.05</td><td class="TSN5" align="left" width="15%">59.03</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">163</td><td class="TSN1" align="left" width="30%">Hunter Haas</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.05</td><td class="TSN1" align="left" width="15%">56.55</td><td class="TSN1" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">164</td><td class="TSN5" align="left" width="30%">D.J. Trahan</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.04</td><td class="TSN5" align="left" width="15%">58.16</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">165</td><td class="TSN1" align="left" width="30%">Gonzalo Fdez-Castano</td><td class="TSN1" align="left" width="15%">Esp</td><td class="TSN1" align="left" width="15%">1.04</td><td class="TSN1" align="left" width="15%">45.59</td><td class="TSN1" align="left" width="30%">44</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">166</td><td class="TSN5" align="left" width="30%">Stephen Ames</td><td class="TSN5" align="left" width="15%">Can</td><td class="TSN5" align="left" width="15%">1.03</td><td class="TSN5" align="left" width="15%">46.54</td><td class="TSN5" align="left" width="30%">45</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">167</td><td class="TSN1" align="left" width="30%">Bryce Molder</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">1.03</td><td class="TSN1" align="left" width="15%">57.69</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">168</td><td class="TSN5" align="left" width="30%">J.J. Henry</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">1.03</td><td class="TSN5" align="left" width="15%">57.62</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">169</td><td class="TSN1" align="left" width="30%">Katsumasa Miyamoto</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">1.02</td><td class="TSN1" align="left" width="15%">54.02</td><td class="TSN1" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">170</td><td class="TSN5" align="left" width="30%">Bradley Dredge</td><td class="TSN5" align="left" width="15%">Wal</td><td class="TSN5" align="left" width="15%">1.02</td><td class="TSN5" align="left" width="15%">53.93</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">171</td><td class="TSN1" align="left" width="30%">Trevor Immelman</td><td class="TSN1" align="left" width="15%">Zaf</td><td class="TSN1" align="left" width="15%">1.02</td><td class="TSN1" align="left" width="15%">40.60</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">172</td><td class="TSN5" align="left" width="30%">Mathew Goggin</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">1.01</td><td class="TSN5" align="left" width="15%">53.45</td><td class="TSN5" align="left" width="30%">53</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">173</td><td class="TSN1" align="left" width="30%">Ben Curtis</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">0.99</td><td class="TSN1" align="left" width="15%">45.58</td><td class="TSN1" align="left" width="30%">46</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">174</td><td class="TSN5" align="left" width="30%">Troy Matteson</td><td class="TSN5" align="left" width="15%">USA</td><td class="TSN5" align="left" width="15%">0.98</td><td class="TSN5" align="left" width="15%">54.75</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">175</td><td class="TSN1" align="left" width="30%">Oliver Wilson</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">0.97</td><td class="TSN1" align="left" width="15%">52.13</td><td class="TSN1" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">176</td><td class="TSN5" align="left" width="30%">Shane Lowry</td><td class="TSN5" align="left" width="15%">Irl</td><td class="TSN5" align="left" width="15%">0.96</td><td class="TSN5" align="left" width="15%">53.77</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">177</td><td class="TSN1" align="left" width="30%">Hiroo Kawai</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">0.96</td><td class="TSN1" align="left" width="15%">43.03</td><td class="TSN1" align="left" width="30%">45</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">178</td><td class="TSN5" align="left" width="30%">Anthony Wall</td><td class="TSN5" align="left" width="15%">Eng</td><td class="TSN5" align="left" width="15%">0.95</td><td class="TSN5" align="left" width="15%">48.68</td><td class="TSN5" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">179</td><td class="TSN1" align="left" width="30%">Alejandro Canizares</td><td class="TSN1" align="left" width="15%">Esp</td><td class="TSN1" align="left" width="15%">0.95</td><td class="TSN1" align="left" width="15%">53.30</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">180</td><td class="TSN5" align="left" width="30%">Pablo Larrazabal</td><td class="TSN5" align="left" width="15%">Esp</td><td class="TSN5" align="left" width="15%">0.95</td><td class="TSN5" align="left" width="15%">53.02</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">181</td><td class="TSN1" align="left" width="30%">Chad Campbell</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">0.94</td><td class="TSN1" align="left" width="15%">52.89</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">182</td><td class="TSN5" align="left" width="30%">Nick O'Hern</td><td class="TSN5" align="left" width="15%">Aus</td><td class="TSN5" align="left" width="15%">0.94</td><td class="TSN5" align="left" width="15%">43.34</td><td class="TSN5" align="left" width="30%">46</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">183</td><td class="TSN1" align="left" width="30%">Daniel Gaunt</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">0.94</td><td class="TSN1" align="left" width="15%">37.42</td><td class="TSN1" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">184</td><td class="TSN5" align="left" width="30%">Pablo Martin</td><td class="TSN5" align="left" width="15%">Esp</td><td class="TSN5" align="left" width="15%">0.93</td><td class="TSN5" align="left" width="15%">51.25</td><td class="TSN5" align="left" width="30%">55</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">185</td><td class="TSN1" align="left" width="30%">Johnson Wagner</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">0.92</td><td class="TSN1" align="left" width="15%">47.09</td><td class="TSN1" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">186</td><td class="TSN5" align="left" width="30%">Alex Cejka</td><td class="TSN5" align="left" width="15%">Deu</td><td class="TSN5" align="left" width="15%">0.92</td><td class="TSN5" align="left" width="15%">51.66</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">187</td><td class="TSN1" align="left" width="30%">Alvaro Velasco</td><td class="TSN1" align="left" width="15%">Esp</td><td class="TSN1" align="left" width="15%">0.92</td><td class="TSN1" align="left" width="15%">42.30</td><td class="TSN1" align="left" width="30%">46</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">188</td><td class="TSN5" align="left" width="30%">Jaco Van Zyl</td><td class="TSN5" align="left" width="15%">Zaf</td><td class="TSN5" align="left" width="15%">0.92</td><td class="TSN5" align="left" width="15%">36.76</td><td class="TSN5" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">189</td><td class="TSN1" align="left" width="30%">Andres Romero</td><td class="TSN1" align="left" width="15%">Arg</td><td class="TSN1" align="left" width="15%">0.92</td><td class="TSN1" align="left" width="15%">39.39</td><td class="TSN1" align="left" width="30%">43</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">190</td><td class="TSN5" align="left" width="30%">Tomohiro Kondo</td><td class="TSN5" align="left" width="15%">Jpn</td><td class="TSN5" align="left" width="15%">0.91</td><td class="TSN5" align="left" width="15%">44.82</td><td class="TSN5" align="left" width="30%">49</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">191</td><td class="TSN1" align="left" width="30%">Justin Leonard</td><td class="TSN1" align="left" width="15%">USA</td><td class="TSN1" align="left" width="15%">0.91</td><td class="TSN1" align="left" width="15%">49.19</td><td class="TSN1" align="left" width="30%">54</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">192</td><td class="TSN5" align="left" width="30%">Christian L. Nilsson</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">0.91</td><td class="TSN5" align="left" width="15%">38.08</td><td class="TSN5" align="left" width="30%">42</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">193</td><td class="TSN1" align="left" width="30%">George Coetzee</td><td class="TSN1" align="left" width="15%">Zaf</td><td class="TSN1" align="left" width="15%">0.91</td><td class="TSN1" align="left" width="15%">50.73</td><td class="TSN1" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">194</td><td class="TSN5" align="left" width="30%">Rikard Karlberg</td><td class="TSN5" align="left" width="15%">Swe</td><td class="TSN5" align="left" width="15%">0.90</td><td class="TSN5" align="left" width="15%">35.95</td><td class="TSN5" align="left" width="30%">40</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">195</td><td class="TSN1" align="left" width="30%">Takashi Kanemoto</td><td class="TSN1" align="left" width="15%">Jpn</td><td class="TSN1" align="left" width="15%">0.89</td><td class="TSN1" align="left" width="15%">44.72</td><td class="TSN1" align="left" width="30%">50</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">196</td><td class="TSN5" align="left" width="30%">Prayad Marksaeng</td><td class="TSN5" align="left" width="15%">Tha</td><td class="TSN5" align="left" width="15%">0.89</td><td class="TSN5" align="left" width="15%">49.97</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">197</td><td class="TSN1" align="left" width="30%">Simon Khan</td><td class="TSN1" align="left" width="15%">Eng</td><td class="TSN1" align="left" width="15%">0.88</td><td class="TSN1" align="left" width="15%">45.05</td><td class="TSN1" align="left" width="30%">51</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">198</td><td class="TSN5" align="left" width="30%">Ignacio Garrido</td><td class="TSN5" align="left" width="15%">Esp</td><td class="TSN5" align="left" width="15%">0.88</td><td class="TSN5" align="left" width="15%">49.37</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" align="center" width="10%">199</td><td class="TSN1" align="left" width="30%">Michael Sim</td><td class="TSN1" align="left" width="15%">Aus</td><td class="TSN1" align="left" width="15%">0.88</td><td class="TSN1" align="left" width="15%">41.16</td><td class="TSN1" align="left" width="30%">47</td></tr>
+      <tr><td class="TSN5" align="center" width="10%">200</td><td class="TSN5" align="left" width="30%">Soren Hansen</td><td class="TSN5" align="left" width="15%">Dnk</td><td class="TSN5" align="left" width="15%">0.87</td><td class="TSN5" align="left" width="15%">48.74</td><td class="TSN5" align="left" width="30%">56</td></tr>
+      <tr><td class="TSN1" colspan="6">
+      <p></p>
+      NOTES:
+      The Official World Golf Ranking which is endorsed by the four Major
+      Championships and the six professional tours which make up the International
+      Federation of PGA Tours is issued every Monday following completion of the
+      previous week's tournaments from around the world. The official events from
+      the six professional tours together with the Canadian Nationwide and European
+      Challenge Tours are all taken into account and points are awarded according to
+      the players? finishing positions and are generally related to the strength of
+      the field based on the number and ranking of the Top-200 World Ranked players
+      and the Top-30 of the Home Tour players in the respective tournaments (Event
+      "Ratings"). However the four Major Championships are rated separately to
+      reflect the higher quality of the events together with the Players
+      Championship in the United States. In addition the BMW Championship in
+      Europe the Australian Japan and South African Open Championships and the
+      Flagship events on the Asian and Nationwide Tours are allocated higher minimum
+      points levels to reflect their status. The World Ranking points for each
+      player are accumulated over a two year "rolling" period with the points
+      awarded for each tournament maintained for a 13-week period to place
+      additional emphasis on recent performances - ranking points are then reduced
+      in equal decrements for the remaining 91 weeks of the two year Ranking period.
+      Each player is then ranked according to his average points per tournament
+      which is determined by dividing his total number of points by the number of
+      tournaments he has played over that two-year period. There is a minimum
+      divisor of 40 tournaments over the two year ranking period. The winners of the
+      Masters Tournament the US Open Championship the Open Championship and the
+      PGA Championship are awarded 100 points (60 points for 2nd place 40 for 3rd
+      30 for 4th down to 1.50 points for a player completing the final round) and
+      the winner of the Players Championship is awarded 80 points (points are
+      awarded down to 1.20 points for 60th place and ties). The BMW Championship has
+      a minimum 64 points for the winner (points to 56th place). Minimum points
+      levels for the winners of official Tour events have been set at 6 points for
+      the Canadian Tour (points to 6th place) 12 points for the European Challenge
+      Tour (points to 14th place) 14 points for the Asian Sunshine and Nationwide
+      Tours (points to 17th place) 16 points for Australasian and Japanese Tours
+      (points to 19th place) and 24 points for European and the United States Tours
+      (points to 27th place). In addition the Open Championships of Australia Japan
+      and South Africa have a minimum of 32 points for the winner (points to 37th
+      place) and the Flagship events on the Asian and Nationwide Tours have a
+      minimum of 20 points for the winner (points to 22nd place). In the cases of
+      co-sanctioned Tour events the minimum points levels are determined using the
+      "average" of the minimum Tour ranking points from each Tour (rounded up to
+      nearest whole number). Points are reduced by 25% for tournaments curtailed to
+      36 holes because of inclement weather or other reasons.
+      </td></tr>
+      </table>
+      <br><div class="TSN1c">As of June 20, 2011, at 10:12 AM ET</div>
+      
+      
+      <p class="tsnid">Powered by <a href="http://www.sportsnetwork.com" target="_blank">The Sports Network</A>.</p>
+      </td></tr></table>
+      
+      <!-- CONTENT AREA -->
+      
+      </p>
+      			</div>
+      		</div>
+      
+      		<div id="botcurve-white-942px"></div>
+      		
+      		<div id="bot728x90" class="ad728x90"><script type="text/javascript">OAS_AD('728x90_2')</script></div>
+      <img src="http://www.azcentral.com/sports/imgs/footer-top.gif" alt="" width="942" height="14" style="display: block;" />
+      <div id="footerwrap" class="clearfix">
+      	<div id="footercolLeft" class="footercols">
+      <div class="foothed"><a href="http://www.azcentral.com/sitemap/sitemap.html">SITE MAP</a></div>
+      <ul>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/" title="arizona breaking news, phoenix news">azcentral.com main</a></h4></li>
+      	<li class="foot-sitemap-mid"><h4><a href="http://www.azcentral.com/travel/" title="arizona travel, hiking guide">arizona travel guide</a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.lavozarizona.com" title="phoenix arizona news in spanish">lavozarizona.com</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/news/" title="arizona news, national news, world news">phoenix news</a></h4></li>
+      	<li class="foot-sitemap-mid"><h4><a href="http://www.azcentral.com/style/hfe/fooddex.html" title="food, recipes, reviews">food</a> | <a href="/style/hfe/" title="home design, arizona gardening, crafts">home</a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.azcentral.com/weather/" title="arizona weather forecasts, temperatures">phoenix weather</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/sports/" title="arizona sports news, schedules">arizona sports</a></h4></li>
+      	<li class="foot-sitemap-mid"><h4><a href="http://www.azcentral.com/style/" title="style, fashion, beauty">style</a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.azcentral.com/class/" title="arizona republic online classified ads">classified</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/business/" title="arizona business, consumer news">phoenix business</a></h4></li>
+      	<li class="foot-sitemap-mid"><h4><a href="http://www.azcentral.com/photo/" title="online photo slideshows, celebrity photos">photos</a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.azcentral.com/jobs/" title="arizona jobs search">phoenix jobs</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/thingstodo/" title="phoenix arizona things to do, entertainment">things to do</a></h4></li>
+      	<li class="foot-sitemap-mid"><h4><a href="http://www.azcentral.com/video/" title="free online video">video</a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.cars.com/go/index.jsp?aff=azcentr" title="arizona cars for sale">phoenix cars</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://phoenix.momslikeme.com/" title="phoenix moms forums, photos">momslikeme.com</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/sports/cardinals/" title="arizona cardinals news">arizona cardinals</a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.azcentral.com/realestate/" title="arizona homes for sale">phoenix homes</a></h4></li>
+      	<li class="foot-sitemap-left"><h4><a href="http://www.azcentral.com/thingstodo/calendar/" title="phoenix arizona events calendar">phoenix calendar</a></h4></li>
+      	<li class="foot-sitemap-mid"><h4><a href="http://www.azcentral.com/help/articles/info-rss.html" title="arizona rss news feeds">rss feeds <img src="http://i.azcentral.com/imgs/rss-10px.png" width="10" height="10" alt="RSS Feed" style="margin-bottom:-1px;" /></a></h4></li>
+      	<li class="foot-sitemap-right"><h4><a href="http://www.azcentral.com/members/AZCNewsletter" title="free online newsletters">newsletters</a></h4></li>
+      </ul>
+      	</div>
+      	<div id="footercolMid" class="footercols">
+      <div class="foothed"><a class="footer" href="http://www.azcentral.com/help/">CUSTOMER SERVICE</a></div>
+      <ul>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/help/articles/info-privacy.html" title="azcentral.com terms of service">terms of service</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://republicmediasolutions.com/" title="azcentral.com, arizona republic advertising information">advertise with Republic Media</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/help/articles/privacy_en.html" title="azcentral.com privacy policy">privacy policy</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/help/articles/contact.html" title="contact the arizona republic">contact The Republic</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/help/articles/about.html" title="learn about the arizona republic">about The Republic</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="https://subscribe.azcentral.com/main_subscribe_form/subscribe.html" title="subscribe to the arizona republic">subscribe to The Republic</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://azcentral.ats.hrsmart.com/cgi-bin/a/selectdiv.cgi" title="jobs at the arizona republic">jobs at The Republic</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="https://subscribe.azcentral.com/main_subscribe_form/subscribe.html" title="arizona republic subscriber services">Republic subscriber services</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/advert/employment/" title="jobs at azcentral.com">jobs at azcentral.com</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://nie.azcentral.com/" title="arizona republic media in education">Media in Education</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/12news/about12/jobs12.html" title="jobs at kpnx, channel 12">jobs at KPNX-TV</a></h5></li>
+      	<li class="foot-service"><h5><a class="footer" href="http://www.azcentral.com/12news/about12/" title="about kpnx, channel 12">about KPNX-TV</a></h5></li>
+      </ul>
+      	</div>
+      	<div id="footercolRight" class="footercols">
+      <div class="foothed">PARTNERS</div>
+      <ul>
+      	<li><h6><a class="footer" href="http://www.usatoday.com/" title="USA Today">USA Today</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.gannett.com/" title="Gannett Co. Inc.">Gannett Co. Inc.</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.apartments.com/" title="apartments for rent">Apartments:</a> <a class="footer" href="http://www.apartments.com/" title="apartments.com">apartments.com</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.cars.com/" title="cars for sale">Cars:</a> <a class="footer" href="http://www.cars.com/" title="cars.com">cars.com</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.eharmony.com/" title="dating">Dating:</a> <a class="footer" href="http://www.eharmony.com/" title="eharmony.com">eHarmony.com</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.homefinder.com/" title="homes for sale">Homes:</a> <a class="footer" href="http://www.homefinder.com/" title="homefinder.com">Homefinder.com</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.homegain.com/" title="real estate, realtors">HomeGain</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.careerbuilder.com/" title="job search">Jobs:</a> <a class="footer" href="http://www.careerbuilder.com/" title="CareerBuilder.com">CareerBuilder.com</a></h6></li>
+      	<li><h6><a class="footer" href="http://businesslistings.azcentral.com/" title="local businesses">Local Businesses</a></h6></li>
+      	<li><h6><a class="footer" href="http://www.shoplocal.com/" title="online shopping">Shopping:</a> <a class="footer" href="http://www.shoplocal.com/" title="ShopLocal.com">ShopLocal.com</a></h6></li>
+      </ul>
+      	</div>
+      </div>
+      <img src="http://www.azcentral.com/sports/imgs/footer-bot.gif" alt="" width="942" height="14" style="display: block;" />
+      
+      <div id="copyright">Copyright &copy; 2010, azcentral.com. All rights reserved. Users of this site agree to the <a class="footer" href="http://www.azcentral.com/help/articles/info-privacy.html">Terms of Service</a> and <a class="footer" href="http://www.azcentral.com/help/articles/privacy_en.html">Privacy Policy/Your California Privacy Rights</a></div>
+      
+      
+      
+      <script type="text/javascript" src="http://www.azcentral.com/js/ur/GCIONSettings.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/ur/GCIONSiteSettings.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/ur/GCION.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/ur/AZC.js"></script>
+      
+      <!-- SiteCatalyst code version: H.3. Copyright 1997-2005 Omniture, Inc. More info available at http://www.omniture.com --> 
+      <script type="text/javascript" language="JavaScript">
+      <!--
+      s_account="gpaper158,gntbcstglobal";
+      s_prop50="Newspaper";
+      //--></script>
+      <script type="text/javascript" language="JavaScript" src="http://www.azcentral.com/incs/h_code.js"></script>
+      
+      <script language="JavaScript"><!--
+      
+      var s_prop6="news"
+      var s_prop7="sports"
+      var s_prop8="tsn_golf_m"
+      
+      s.trackDownloadLinks=false
+      s.trackExternalLinks=false
+      s.trackInlineStats=true
+      s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,doc,pdf,xls"
+      s.linkInternalFilters="208.3125.3,abgnews,apartments,arizonagolfnews,arizonarepublic,arizonarepublican,asp.usatoday,azcentral,azneighbors,azrep,azrepublic,carcast,career,careerbuilder,careerpath,careers.usatoday,cars,cnet,customcoupon,customcoupon.com,customwire.ap.org,datemaker,eharmony,employers.usatoday,e-thepeople,event411,gamesuites,gannettnewsservice,gannettnewsservices,gbahn,gcijobs,golfserv,greatschools,healthology,homefinder,homehunter,homescape,ihost,infi,intelihealth,javascript:,job,jobmanager.usatoday,movingcenter,network,newhomenetwork,newsbank,newslibrary,p2ionline,p2online,phoenixaz,phoenixgazette,pictopia,qwestdex,relationshipnetwork,reservetravel,resume.usatoday,salary,space,stubhub,topix,uclick,usatoday,usatoday.salary,wire.ap.org,www.tvymas.com,zap2it"
+      s.linkLeaveQueryString=false
+      //--></script>
+      
+      <script language="Javascript" src="http://www.azcentral.com/incs/ParseOmniture.js"></script>
+      
+      <script language="JavaScript"><!--
+      //s.pageName="Slideshow"
+      //s.server="azcentral.com"
+      //s.server="dellpe1650-5.azcentral.com"
+      if(typeof s_pageName!='undefined'){s.pageName=s_pageName}
+      if(typeof s_channel!='undefined'){s.channel=s_channel}
+      if(typeof s_pageType!='undefined'){s.pageType=s_pageType}
+      if(typeof s_prop1!='undefined'){s.prop1=s_prop1}else{s.prop1=""}
+      if(typeof s_prop2!='undefined'){s.prop2=s_prop2}else{s.prop2=""}
+      if(typeof s_prop3!='undefined'){s.prop3=s_prop3}else{s.prop3=""}
+      if(typeof s_prop4!='undefined'){s.prop4=s_prop4}else{s.prop4=""}
+      if(typeof s_prop5!='undefined'){s.prop5=s_prop5}else{s.prop5=""}
+      if(typeof s_prop6!='undefined'){s.prop6=s_prop6}else{s.prop6=""}
+      if(typeof s_prop7!='undefined'){s.prop7=s_prop7}else{s.prop7=""}
+      if(typeof s_prop8!='undefined'){s.prop8=s_prop8}else{s.prop8=""}
+      
+      
+      if (typeof GCION!='undefined' && GCION.Cookies.Cookie.Exists(gcion_rdb_cookie)) {
+        var rdbCookie = GCION.Cookies.RDB.GetData(gcion_rdb_cookie);
+        
+        if (rdbCookie) {
+          s.prop30 = rdbCookie.ZipCode;
+          s.prop31 = GCION.Utils.Data.GetYob(rdbCookie.AgeHigh);
+          if (rdbCookie.Gender == 1)
+            s.prop32 = 'male';
+          else if (rdbCookie.Gender == 2)
+            s.prop32 = 'female';
+          else
+            s.prop32 = '';
+        }
+      }
+      
+      
+      /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+      var s_code=s.t();if(s_code)document.write(s_code)
+      //--></script>
+      
+      <script language="JavaScript"><!--
+      if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+      //--></script>
+      <noscript><img src="http://gpaper158.112.2O7.net/b/ss/gpaper158,gntbcstglobal/1/H.3--NS/0"	height="1" width="1" border="0" alt="" /></noscript>
+      <!--/DO NOT REMOVE/-->
+      <!-- End SiteCatalyst code version: H.3. -->
+      
+      
+      
+      <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J06575" CHARSET="ISO-8859-1"></script>
+      
+      
+      
+      <script type="text/javascript">
+      
+      <!--
+      
+        if(typeof gcion_enable_bt != 'undefined') {
+      
+          if(gcion_enable_bt && typeof DM_addToLoc != 'undefined') {
+      
+            var gciYear = 2007;
+      
+            DM_addToLoc("zipcode", escape(s.prop30));
+      
+            DM_addToLoc("age", escape((gciYear-s.prop31)));
+      
+            DM_addToLoc("gender", escape(s.prop32));
+      
+          }
+      
+        }
+      
+        
+      
+        if (typeof DM_tag != 'undefined')  {
+      
+        	DM_tag();
+      
+        	var rsi_exp=new Date(rsi_now.getTime()+2419200000);
+      
+        	var rsi_dom=location.hostname;
+      
+        	rsi_dom=rsi_dom.replace(/.*(\.[\w\-]+\.[a-zA-Z]{3}$)/,'$1');
+      
+        	rsi_dom=rsi_dom.replace(/.*(\.[\w\-]+\.\w+\.[a-zA-Z]{2}$)/,'$1');
+      
+        	rsi_dom=rsi_dom.replace(/.*(\.[\w\-]{3,}\.[a-zA-Z]{2}$)/,'$1');
+      
+        	document.cookie=('rsi_segs='+rsinetsegs.join('|')+';expires='+rsi_exp.toGMTString()+';path=/;domain='+rsi_dom);
+      
+        }
+      
+      //-->
+      
+      </script>
+      	</div>
+      	<h1 id="SEOtext">phoenix arizona sports scores and statistics</h1>
+        
+      <script type="text/javascript" src="http://www.azcentral.com/js/addloadlistener.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/browserdetect.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/textsize.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/zagcookie.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/add-event.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/popup.js"></script>
+      <script type="text/javascript" src="http://www.azcentral.com/js/checkm8footer.js"></script>
+      
+      <script type="text/javascript">
+      	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      	var pageTracker = _gat._getTracker("UA-3631010-3");
+      	pageTracker._initData();
+      	pageTracker._trackPageview();
+      </script>
+      
+      <!-- Start Quantcast tag -->
+      <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+      <script type="text/javascript">_qacct="p-58edyq8Mk2xns";quantserve();</script>
+      <noscript>
+      	<a href="http://www.quantcast.com/p-58edyq8Mk2xns" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-58edyq8Mk2xns.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+      </noscript>
+      <!-- End Quantcast tag -->
+      
+      <!-- Begin comScore Tag -->
+      <script type="text/javascript">
+      var __cs_c1 = 2; // Required, and value should be 2
+      var __cs_c2 = "6035223"; // Required, ID supplied by comSCORE
+      var __cs_params = ["c1=", __cs_c1, "&c2=", __cs_c2].join('');
+      document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js?" + __cs_params +"' %3E%3C/script%3E"));
+      </script>
+      <!-- End comScore Tag -->
+      </body>
+      </html>
+
+    http_version: "1.1"

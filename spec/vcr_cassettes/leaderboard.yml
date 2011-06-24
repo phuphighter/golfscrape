@@ -1,0 +1,5190 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://sports.yahoo.com:80/golf/pga/leaderboard
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      p3p: 
+      - policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+      connection: 
+      - keep-alive
+      content-type: 
+      - text/html; charset=UTF-8
+      via: 
+      - HTTP/1.1 r2.ycpi.mud.yahoo.net (YahooTrafficServer/1.19.5 [cMsSf ])
+      server: 
+      - YTS/1.19.5
+      date: 
+      - Fri, 24 Jun 2011 02:33:36 GMT
+      cache-control: 
+      - private
+      age: 
+      - "0"
+      vary: 
+      - Host,Accept-Encoding
+      transfer-encoding: 
+      - chunked
+    body: |
+      
+      <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
+      <html>
+      <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      
+      <link type="text/css" rel="stylesheet" media="screen" href="http://l.yimg.com/j/assets/styles/lsm/site.r174843;styles/lsm/golf/league.r174843;styles/lsm/golf/status_line.r174843;styles/lsm/golf/leagueleaderboard.r174843.css?m" />
+      <style type="text/css" media="all">
+      
+      
+      #yspBanner { width:750px; height:60px; background:url(http://l.yimg.com/a/i/us/sp/b/golf_60_pga_2.gif) no-repeat #4F711F; overflow:hidden;  position:relative;}
+      
+      
+      </style>
+      
+      <title>2011 Travelers Championship - PGA Tour - Golf Leaderboard - Yahoo! Sports</title>
+      
+      
+      </head>
+      
+      
+      <body class="subIndexPage golf" id="ysports">
+        <div  id="yspContentWrapper">
+          <!-- Start Header -->
+          <div id="hd">
+            <link type="text/css" rel="stylesheet" media="screen" href="http://l.yimg.com/j/assets/css/v2_legacy.r174843;css/sports_shop.r174843;css/sitewide_nav_header_footer.r174843;css/player_search.r174843;css/search_assist/miniassist_200908201638.r174843;css/common/disclosure.r174843;css/social_buttons.r174843;css/common/ysp-mod/ysp-checkin.r174843.css?m" />
+      <script type="text/javascript" charset="utf-8" src="http://l.yimg.com/j/assets/eJx9kWFugzAMhU8UoFCtVDsMchO3GJIYxckqbj86VCmp0H7Fev5e_CxPUq-J6ra6VM2rsgwGgzLsFP6gj1U4Xc79ufueclCz96gjsVeO_DEDnhz8j0xy3O2qbk_z2RSEoMcBREhivTVpL4e2aa5N3zanr67PDVtQieCjFL8sHEolwk1KG8-EuTKyw8GxSRZLJ-kZQ648yRt-FvM0B4xjuYoDD4_SqSFwErS5lmxxAkOiLUsKWMZ1jn29yqK2iH-vHlHP5cQDivCqFvIqBnjRjxwPsJDJhbtdORVpFgsrhmG_ykfq4cYxsnurv7qjxzo,.js?z&m"></script>
+      <script type="text/javascript">
+            YAHOO.Sports.oAC = { uri : 'http://l.yimg.com/j/assets/js/yui/2.7.0/element-min.r174843;js/yui/2.7.0/datasource-min.r174843;js/yui/2.7.0/datatable-min.r174843;js/yui/2.7.0/autocomplete-min.r174843;js/nav_ac.r174843.js?m' }
+      
+            YAHOO.Sports.postLoad = { 
+                  darla_lib_path: 'http://l.yimg.com/d/combo?darla/fc_0.3.0.js&darla/util_0.2.6.js&darla/renderers/complex_renderer_0.3.0.js',
+                  renderMediaShareButtons: function() {
+                    YUI({
+                      modules: {
+                        "media-social-buttons": {
+                          fullpath:"http://l.yimg.com/us.js.yimg.com/lib/media/m/social_buttons/social-buttons-min-3655.js",
+                          requires: ["event-key","widget","substitute"]
+                        }
+                    }}).use("media-social-buttons", function(c) {
+                      c.SocialButtons.getStaticConfig = function() {
+                        return(YAHOO && YAHOO.Media && YAHOO.Media.SocialButtons && YAHOO.Media.SocialButtons.conf) || {};
+                      };
+      
+                      var b = [], a = c.SocialButtons.getStaticConfig();
+                      c.all(".ymsb").each(function(d) {
+                        b.push(new c.SocialButtons({
+                          srcNode: d,
+                          config: a.config,
+                          contentMetadata: a.content
+                        }).render());
+                      });
+                      YUI.namespace("Media.SocialButtons");
+                      YUI.Media.SocialButtons.instances = b;
+                    });
+                  }
+              };
+          </script><!-- {ULT:BEGIN-SKIP} -->
+      <!-- {ULT:END-SKIP} -->
+      <!-- {ULT:BEGIN-SECTION;sec=beta} --><!-- {ULT:END-SECTION} -->
+      <script type="text/javascript">
+      YAHOO.Sports.league = 'golf';
+      </script>
+      <div class="mast mast-uh-2"> 
+        <div id="ysp-hd">
+      <!-- {ULT:BEGIN-SKIP} --><link type='text/css' rel='stylesheet' href='http://l.yimg.com/zz/combo?kx/ucs/uh/css/205/yunivhead-min.css&kx/ucs/uh/css/194/logo-min.css&kx/ucs/search/css/163/search_all-min.css&kx/ucs/search/css/170/search_buttons-min.css'/><style>/* customizable */
+      #yUnivHead{}
+      #yUnivHead .yuhead-bullet-down{background-position:right -119px;}
+      #yUnivHead {z-index:19;}
+      
+      /* font color */
+      #yUnivHead {color:#fff;}
+      #yUnivHead a{color:#fff;}
+      #yUnivHead a:hover{color:#fff;}
+      
+      #yuhead-hd #yuhead-mepanel-cont #yuhead-mepanel li.yuhead-me{border-color:#fff;}
+      #yuhead-hd #yuhead-com-links-cont #yuhead-com-links li.yuhead-com-link-item{border-color:#fff;}
+      .yuhead-logo h2 a{color:#fff;}
+      
+      /* promo color */
+      #yUnivHead #yuhead-promo .yucs-promo-label{color:#fff;}
+      #yUnivHead #yuhead-promo a{color:#fff;}
+      #yUnivHead #yuhead-promo a:hover{color:#fff;}
+      
+      /* background, border, gradients */
+      #yUnivHead {
+          background:transparent;
+      }
+      /* trending promo background - match to header top background */
+      #yUnivHead .yucs-trending-anim .yucs-trending-anim-fade {
+      	background:transparent;
+      }
+      /*logos*/
+      #yUnivHead .yuhead-logo h2 {background-position:0px -120px;}
+      #yUnivHead .yuhead-logo h2.small {background-position:0px -360px;}
+      /*hacks for no doctype*/
+      #yuhead-bd #yuhead-search #yuhead-sform-cont {
+            *background-color: #dfdfe0;
+          }
+          #yuhead-bd #yuhead-search #yuhead-sform-cont form .yucs-sweb-btn {
+            *background-color: #f8d44c;
+          }
+      
+      /* right menu z-index hack */
+      #yUnivHead #yuhead-hd ul li.yucs-menu ul.yucs-menu-right {z-index:5000;}</style><div id="yUnivHead" class="yucs-en-us">    <a href="#yuhead-search" class="yucs-skipto-search yucs-activate">Skip to search.</a>        <div id="yuhead-hd" class="yuhead-clearfix">        <div id="yuhead-mepanel-cont">            <ul id="yuhead-mepanel"><li class="yuhead-me yuhead-nodivide yuhead-nopad">    <a class="yuhead-signup" href="https://edit.yahoo.com/config/eval_register?.src=spt&.intl=us&.done=http://sports.yahoo.com/golf/pga/leaderboard">    <em>New User?</em> Register</a></li><li class="yuhead-me">        <a href="https://login.yahoo.com/config/login?.src=spt&.intl=us&.done=http://sports.yahoo.com/golf/pga/leaderboard">    <em>Sign In</em></a></li><li class="yuhead-me">	<a href="http://help.yahoo.com/l/us/yahoo/sports/">		Help	</a></li></ul>        </div>        <div id="yuhead-promo"><style>/* panels */.yucs-sethp .yucs-sethp-panel {font-size:x-small;border:1px solid #4333BC;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:5px;background:#fff;width:360px;padding:10px 10px;position:absolute;z-index:100;margin-top:6px;}.yucs-sethp .pnt{background-position:-29px 0;background-repeat:no-repeat;height:6px;width:11px;position:absolute;left:50%;z-index:100;}.yucs-sethp .yucs-sethp-panel .yucs-sethp-panel-logo {background-position:0 -16px;background-repeat:no-repeat;display:block;font-size:0;height:37px;line-height:0;width:40px;text-indent:-1000px;overflow:hidden;float:left;}.yucs-sethp .myyhpbg {background-image:url(http://l.yimg.com/a/i/us/uh/bt2/myyhp_sprite_v1.gif);}.yucs-sethp .yucs-sethp-panel ol {width:300px;display:block;float:left;margin:0 0 10px;list-style:decimal inside;padding:0 0 0 10px;text-align:left;}.yucs-sethp .yucs-sethp-panel .hr {clear:both;text-align:center;}.yucs-sethp .yucs-sethp-panel .hr a {color:#000;}.yucs-sethp .hide {display:none;}</style><div class="yucs-sethp yucs-activate" data-prop="sports" data-detectscript="http://www.yahoo.com/includes/hdhpdetect.php"><a href="http://us.lrd.yahoo.com/_ylc=X3oDMTFnNzFiMTJoBHRtX2RtZWNoA1RleHQgTGluawR0bV9sbmsDVTExMzA1NTYEdG1fbmV0A1lhaG9vIQ--/SIG=112cgufir/**http%3A//www.yahoo.com/%3Fmkt=3" target="_top" rel="nofollow">Make Y! My Homepage<abbr title="Yahoo!"></abbr></a><div class="myyhpbg pnt hide">&nbsp;</div><div class="yucs-sethp-panel shdw hide"><div class="bd"><a title="Yahoo!" href="http://www.yahoo.com" class="yucs-sethp-panel-logo myyhpbg">Yahoo!</a><ol class="yuheadhpinstr"><li>Drag the "Y!" and drop it onto the "Home" icon.</li><li>Select "Yes" from the pop up window.</li><li>Nothing, you're done.</li></ol><div class="hr"><p>If this didn't work for you see <a href="http://us.lrd.yahoo.com/_ylc=X3oDMTFnNzFiMTJoBHRtX2RtZWNoA1RleHQgTGluawR0bV9sbmsDVTExMzA1NTYEdG1fbmV0A1lhaG9vIQ--/SIG=112cgufir/**http%3A//www.yahoo.com/%3Fmkt=3"class="yuheadshps yuheadshpdetails"target="_top">detailed instructions</a></p><p><a href="javascript:void(0);" class="yucs-sethp-panel-close">Close this window</a></p></div></div></div></div></div>        <div id="yuhead-com-links-cont">            <ul id="yuhead-com-links">                                <li class="yuhead-com-link-item">    <a class="sp yuhead-ico-mail" href="http://mail.yahoo.com?.intl=us" rel="nofollow" target="_top">Mail</a></li><li class="yuhead-com-link-item">    <a href="http://my.yahoo.com"     rel="nofollow"     target="_top">   My Y!    </a></li><li id="yuhead-com-home"><a class="sp yuhead-ico-home" href="http://www.yahoo.com" rel="nofollow" target="_top">Yahoo!</a></li>            </ul>        </div>    </div>    <div id="yuhead-bd" class="yuhead-clearfix">        <div class="yuhead-logo">   <style>      .yuhead-logo h2{         width:240px;         height:37px;         background-image:url(http://l.yimg.com/a/i/brand/purplelogo/uh/us/20/sports/sports.png);         _background-image:url(http://l.yimg.com/a/i/brand/purplelogo/uh/us/20/sports/sports-222121.gif);      }      .yuhead-logo a{         width:240px;         height:37px;      }      .yuhead-logo div.yuhead-comarketing {       width:240px;      }         </style>   <h2>      <a href="http://sports.yahoo.com/"       target="_top">         Yahoo! Sports      </a>   </h2>   <!-- comarketing component --></div>        <div id="yuhead-search">        <div id="yuhead-sform-cont" class="yuhead-s-web yuhead-search-form">        <form role="search" class="yucs-search yucs-activate" action="http://search.yahoo.com/search" method="get"><table role="presentation">   <tbody role="presentation"><tr role="presentation"><td class="yucs-form-input" role="presentation"> <label>     <span>Search</span>                 <input autocomplete="off" type="text" class="sp yuhead-ico-mglass yuhead-search-hint yucs-search-hint-color yucs-search-field" name="p"                  data-sh="Search"                  data-satype="rich"                  data-gosurl=""                  data-pubid="" /> </label></td><td NOWRAP class="yucs-form-btn" role="presentation"><div class="yucs-btn-wrap">    <button class="yucs-sweb-btn" type="submit">Search Web</button></div>            </td>         </tr>        </tbody></table><input type="hidden" id="fr" name="fr" value="ush-sports" /></form>            </div>    </div>    </div>                </div>  <script type="text/javascript">
+          YUI({
+           modules: {
+             uh2_js: {
+               fullpath: "http://l.yimg.com/zz/combo?kx/ucs/common/js/1/setup-min.js&kx/ucs/sts/js/83/skip-min.js&kx/ucs/menu_utils/js/134/menu_utils-min.js&kx/ucs/username/js/33/user_menu-min.js&kx/ucs/help/js/35/help_menu-min.js&kx/ucs/utility_link/js/15/utility_menu-min.js&kx/ucs/common/js/127/logo_debug-min.js&kx/ucs/homepage/js/124/homepage-min.js&kx/ucs/search/js/179/search-min.js"
+             }   
+           }
+          }).use('event',function(Y) {
+            Y.on('contentready', function(){
+              Y.use('uh2_js');
+            }, '#yUnivHead');
+          });
+        </script><!-- {ULT:END-SKIP} -->  <style type="text/css">
+          #ygma #ygma-search input {width:324px;}
+        </style>
+        </div>
+      <!-- {ULT:BEGIN-SKIP} -->
+        <div id="mh"><!-- SpaceID=0 robot -->
+      </div>
+      <!-- {ULT:END-SKIP} -->
+      
+      
+        <!-- {ULT:BEGIN-SECTION;sec=pn} -->
+        <div id="sports-nav">
+      
+        <div id="ysp-league-nav"><ul id="league_top_primary-test"><li id="top" class="first"><a href="http://sports.yahoo.com/">Home</a></li><li id="nfl" ><a href="http://sports.yahoo.com/nfl">NFL</a></li><li id="mlb" ><a href="http://sports.yahoo.com/mlb">MLB</a></li><li id="nba" ><a href="http://sports.yahoo.com/nba">NBA</a></li><li id="nhl" ><a href="http://sports.yahoo.com/nhl">NHL</a></li><li id="ncaaf" class="ncaaf more"><a href="http://rivals.yahoo.com/ncaa/football">NCAAF</a> <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn-college} -->
+      <div id="ysp-ncaaf" class="flyout">
+        <div class="top">
+          <div class="hd"><span></span></div>
+          <div class="bd">
+            <ul>
+              <li><a href="http://rivals.yahoo.com/ncaa/football">NCAA Football</a></li>
+              <li><a href="http://footballrecruiting.rivals.com/" class="rivals">NCAA Football Recruiting</a></li>
+              <li><a href="http://rivals.yahoo.com/video/categories/college-football" class="rivals">NCAA Football Video</a></li>
+              <li><a href="http://www.rivals.com" class="rivals">Rivals.com Home</a></li>
+            </ul>
+          </div>
+          <div class="ft"></div>
+        </div>
+      </div>
+      <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn} --></li><li id="ncaab" class="ncaab more"><a href="http://rivals.yahoo.com/ncaa/basketball">NCAAB</a> <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn-college} -->
+      <div id="ysp-ncaab" class="flyout">
+        <div class="top">
+          <div class="hd"><span></span></div>
+          <div class="bd">
+            <ul>
+              <li><a href="http://rivals.yahoo.com/ncaa/basketball">NCAA Men's Basketball</a></li>
+              <li><a href="http://rivals.yahoo.com/ncaa/womens-basketball">NCAA Women's Basketball</a></li>
+              <li><a href="http://basketballrecruiting.rivals.com" class="rivals">NCAA Basketball Recruiting</a></li>
+              <li><a href="http://rivals.yahoo.com/video/categories/college-basketball" class="rivals">NCAA Basketball Video</a></li>
+              <li><a href="http://www.rivals.com" class="rivals">Rivals.com Home</a></li>
+            </ul>
+          </div>
+          <div class="ft"></div>
+        </div>
+      </div>
+      <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn} --></li><li id="nascar" ><a href="http://sports.yahoo.com/nascar">NASCAR</a></li><li id="golf" class="selected"><a href="http://sports.yahoo.com/golf">Golf</a></li><li id="mma" ><a href="http://sports.yahoo.com/ufc">UFC</a></li><li id="sow" ><a href="http://sports.yahoo.com/sow">Soccer</a></li><li id="ten" ><a href="http://sports.yahoo.com/ten">Tennis</a></li><li id="actionsports" class="more grind-tv"><a href="http://www.grindtv.com">Action Sports</a> <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn-actionsports} -->
+      <div id="ysp-action-sports" class="flyout">
+        <div class="top">
+          <div class="hd"><span></span></div>
+          <div class="bd">
+            <ul>
+              <li><a class="grind-tv" href="http://www.grindtv.com/">GrindTV Home</a></li>
+              <li><a class="grind-tv" href="http://www.grindtv.com/skate/">Skate</a></li>
+              <li><a class="grind-tv" href="http://www.grindtv.com/surf/">Surf</a></li>
+              <li><a class="grind-tv" href="http://www.grindtv.com/snow/">Snow</a></li>
+              <li><a class="grind-tv" href="http://www.grindtv.com/wake/">Wake</a></li>
+              <li><a class="grind-tv" href="http://www.grindtv.com/bike/">BMX</a></li>
+              <li><a class="grind-tv" href="http://www.grindtv.com/moto/">Motocross</a></li>
+            </ul>
+          </div>
+          <div class="ft"></div>
+        </div>
+      </div>
+      <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn} --></li><li id="more" class="more"><a href="http://sports.yahoo.com/top/gen/moresports">More</a> <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn-more} -->
+      <div id="ysp-more" class="flyout">
+          <div class="top">
+            <div class="hd"><span></span></div>
+            <div class="bd">
+              <ul class="sports">
+                <li class="odd"><a href="http://us.rd.yahoo.com/sports/*http://au.sports.yahoo.com/afl/">Aussie Football</a> (AU)</li>
+                <li class="even"><a href="http://sports.yahoo.com/juniorhockey">Junior Hockey</a></li>
+                <li class="odd"><a href="http://sports.yahoo.com/box/">Boxing</a></li>
+                <li class="even"><a href="http://sports.yahoo.com/mls">MLS</a></li>
+                <li class="odd"><a href="http://sports.yahoo.com/cfl">CFL</a></li>
+                <li class="even"><a href="http://rivals.yahoo.com/ncaa/baseball">NCAA Baseball</a></li>
+                <li class="odd"><a href="http://us.rd.yahoo.com/sports/*http://cricket.yahoo.com/">Cricket</a> (IN)</li>
+                <li class="even"><a href="http://sports.yahoo.com/oly">Olympics</a></li>
+                <li class="odd"><a href="http://sports.yahoo.com/sc">Cycling</a></li>
+                <li class="even"><a href="http://us.rd.yahoo.com/sports/*http://uk.eurosport.yahoo.com/rugby/">Rugby</a>(UK)</li>
+                <li class="odd"><a href="http://us.rd.yahoo.com/sports/*http://uk.eurosport.yahoo.com/formula-1/">Formula One</a>(UK)</li>
+                <li class="even"><a href="http://sports.yahoo.com/ski">Winter Sports</a></li>                  <li class="odd"><a href="http://sports.yahoo.com/rah">Horse Racing</a></li>
+                <li class="even"><a href="http://sports.yahoo.com/wnba">WNBA</a></li>
+                <li class="odd"><a href="http://sports.yahoo.com/irl">IndyCar</a></li>
+                <li class="even"><a href="http://sports.yahoo.com/top/gen/moresports">All Sports</a></li>
+              </ul>
+              <ul class="links">
+                <li><a href="http://sports.yahoo.com/video">Video</a><a href="http://sports.yahoo.com/blogs">Blogs</a></li>
+                <li><a href="http://sports.yahoo.com/ycn">Yahoo! Contributor Network</a></li>
+                <li><a href="http://rivals.com/">Rivals.com</a></li>
+                <li><a href="http://sports.yahoo.com/top/collegebroadcast">College Broadcast</a></li>
+                <li><a href="http://sports.yahoo.com/top/rumors">Scoop Du Jour</a></li>
+                <li><a href="http://sports.yahoo.com/mysportsnews">My Sports News</a></li>
+                <li><a href="http://sports.yahoo.com/top/expertscorner">Expert Analysis</a><a href="http://sports.yahoo.com/top/morenews">News</a></li>
+                <li><a href="http://sports.yahoo.com/top/gallery">Photos</a><a href="http://sports.yahoo.com/top/trans">Transactions</a></li>
+              </ul>
+            </div>
+            <div class="ft"></div>
+          </div>
+        </div>
+      <!-- {ULT:END-SECTION;} -->
+      <!-- {ULT:BEGIN-SECTION;sec=pn} --></li></ul></div><div id="ysp-quicklinks-nav"><ul id="league_top_quicklinks-test"><li id="thepostgame" class="first postGame"><a href="http://thepostgame.com">The Post Game</a></li><li id="leagueGames" class="leagueGames"><a href="http://sports.yahoo.com/games">Games</a></li><li id="leagueshop" class="shop"><a href="http://yahoosports.teamfanshop.com">Shop</a></li><li id="leaguefantasy" class="fantasy"><a href="/fantasy">Fantasy</a></li></ul></div></div>
+        <!-- {ULT:END-SECTION;} -->
+        <!-- {ULT:BEGIN-SECTION;sec=sn} -->
+            <div id="ysp-league-sub-nav"><ul id="league_pga_subnav"><li id="leaguehome" class="first"><a href="/golf">Golf Home</a></li><li id="leaguetours" ><a href="/golf/tours">Pro Tours</a></li><li id="leaguevideo" ><a href="/golf/video">Video</a></li><li id="leaguephotos" ><a href="/golf/gallery">Photos</a></li><li id="leagueexpertsblog" ><a href="/golf/blog/golf_experts">Blog</a></li><li id="golf-featured" >PGA Tour:</li><li id="leagueschedule" class="tertiary"><a href="/golf/pga/schedule">Schedule</a></li><li id="leagueplayers" class="tertiary"><a href="/golf/pga/players">Players</a></li><li id="leagueleaderboard" class="tertiary selected"><a href="/golf/pga/leaderboard">Leaderboard</a></li><li id="leaguestats" class="tertiary"><a href="/golf/pga/stats">Stats</a></li></ul></div>  <!-- {ULT:END-SECTION;} -->
+      
+      
+      <script type="text/javascript">
+      	YAHOO.namespace("Sports");
+      	YAHOO.Sports.ysp_league = 'pga';
+      	YAHOO.Sports.nav_flyouts = { 'aNav' : [ [{id : 'nfl', txt : 'NFL', url : '/nfl'},{id : 'ncaaf', txt : 'NCAA Football', url : '/ncaaf'},{id : 'mlb', txt : 'MLB', url : '/mlb'},{id : 'ncaab', txt : 'NCAA Men\'s Basketball', url : '/ncaab'},{id : 'nba', txt : 'NBA', url : '/nba'},{id : 'ncaaw', txt : 'NCAA Women\'s Basketball', url : '/ncaaw'},{id : 'nhl', txt : 'NHL', url : '/nhl'},{id : 'ncaabb', txt : 'NCAA Baseball', url : '/ncaabb'},{id : 'nascar', txt : 'NASCAR', url : '/nascar'},{id : 'mma', txt : 'Mixed Martial Arts', url : '/mma'},{id : 'golf', txt : 'Golf', url : '/golf'},{id : 'box', txt : 'Boxing', url : '/box'},{id : 'tennis', txt : 'Tennis', url : '/ten'},{id : 'ski', txt : 'World Cup Skiing', url : '/ski'},{id : 'soccer', txt : 'World Soccer', url : '/sow'},{id : 'mls', txt : 'MLS', url : '/mls'},{id : 'olympics', txt : 'Olympics', url : '/olympics'},{id : 'rivals', txt : 'Rivals.com', url : 'http://www.rivals.com'},{id : 'shop', txt : 'Shop', url : 'http://yahoosports.teamfanshop.com'},{id : 'allsports', txt : 'All Sports &raquo;', url : '/top/gen/moresports'}][{id : 'leagueschedule', txt : 'Schedule', url : '/golf/pga/schedule'},{id : 'leagueplayers', txt : 'Players', url : '/golf/pga/players'},{id : 'leagueleaderboard', txt : 'Leaderboard', url : '/golf/pga/leaderboard'},{id : 'leaguestats', txt : 'Stats', url : '/golf/pga/stats'}],
+       ]};
+      
+      </script>
+      
+      
+      
+      
+      <div id="nt1"><!-- SpaceID=0 robot -->
+      </div>
+      <div id="ysp-search-assist">
+        <div class="hd"></div>
+        <div class="bd">
+         <form id="sf" method="GET" action="http://sports.search.yahoo.com/search" target="_top">
+           <div role="application">
+             <span class="magnifier"></span>
+             <input type="text" name="p" id="ysp-sbx">
+             <span class="sbtn">
+              <span>
+                <input type="submit" value="Sports Search">
+              </span>
+             </span>
+             <div id="ysp-sat"></div>
+           </div>
+           <input type="hidden" name="fr" value="sports-us-ss"></input>
+         </form>
+        </div>
+        <div class="ft">
+          <h4>Trending Now:</h4>
+          <ol>
+            <li><a href="http://sports.search.yahoo.com/search?cs=bz&p=NBA+Draft&fr=sports-us-tts" target="_top">NBA Draft</a></li>
+      <li><a href="http://sports.search.yahoo.com/search?cs=bz&p=Wimbledon&fr=sports-us-tts" target="_top">Wimbledon</a></li>
+      <li><a href="http://sports.search.yahoo.com/search?cs=bz&p=Tiger+Woods&fr=sports-us-tts" target="_top">Tiger Woods</a></li>
+      <li><a href="http://sports.search.yahoo.com/search?cs=bz&p=NFL+Talks&fr=sports-us-tts" target="_top">NFL Talks</a></li>
+      <li><a href="http://sports.search.yahoo.com/search?cs=bz&p=Jose+Reyes&fr=sports-us-tts" target="_top">Jose Reyes</a></li>
+          </ol>
+        </div>
+      </div>  
+      </div>
+      <script type="text/javascript">
+      YAHOO.Sports.Window.set("leaguemockdrafts");
+      YAHOO.Sports.Window.set("ysp-quicklinks-nav");
+      </script>
+      
+      <script type="text/javascript" charset="utf-8" src="http://l.yimg.com/j/assets/js/refresh.r174843.js?m"></script>
+      <script type="text/javascript">var refreshTime = 180; YAHOO.Sports.Refresh.init('/golf/pga/leaderboard', 180);</script>
+      <noscript><meta http-equiv="refresh" content="180"></noscript>		</div>
+          <!-- End Header -->
+          <div id="yspMainContentWrapper">
+            <a name="content"></a>
+            
+      <div id="leaderboard"  class="inprogress">
+            
+        <div class="hd">
+            <div class="header_section">
+            <span class="pga"></span>
+            
+      <h1 class="yspPageHeader">PGA TOUR Leaderboard</h1>
+            <ul class="pga-links">
+            	<li><a href="http://www.pgatour.com/shottracker/yahoo/">PGA TOUR Shot Tracker</a></li>
+            	<li><a href="http://www.pgatour.com/r/leaderboard/yahoo/">Enhanced Leaderboard</a></li>
+                  </ul>
+                  
+            </div>
+                              <div class="weather">
+                                <a href="http://weather.yahoo.com/united-states/connecticut/cromwell-2387421/"  title="Cloudy"><img src="http://l.yimg.com/a/i/us/we/31/26.gif" border=0  alt="Cloudy"></a>                          <a href="http://weather.yahoo.com/united-states/connecticut/cromwell-2387421/" class="loc">Cromwell, CT</a>                          <span>Currently:&nbsp;65&deg;&nbsp;F</span>
+                              </div>
+      
+      
+        <div class="sevenTen" id="statusLine" >
+      	<span class="ten">Last Updated:  Thursday, Jun 23, 2011 6:51 pm, EDT</span>
+      	<span class="seven">Status: <strong>Round Suspended</strong></span>
+      </div>
+      
+        </div>
+          <div class="headerBlock">
+            
+      <h4 class="yspTitleBar">Travelers Championship (Jun 23&nbsp;-&nbsp;26)</h4>
+             <div id="past_tours">
+      
+             <form name="tour_select" method="get">
+             <label for="tour_event">Previous Tournaments</label>
+             <select name="tour_event" onChange="goTour()">
+             <option value="/golf/pga/leaderboard/2011/26">Travelers Championship</option><option value="/golf/pga/leaderboard/2011/24">U.S. Open Championship</option><option value="/golf/pga/leaderboard/2011/25">FedEx St. Jude Classic</option><option value="/golf/pga/leaderboard/2011/22">the Memorial Tournament presented by Nationwide In</option><option value="/golf/pga/leaderboard/2011/19">HP Byron Nelson Championship</option><option value="/golf/pga/leaderboard/2011/20">Crowne Plaza Invitational at Colonial</option><option value="/golf/pga/leaderboard/2011/13">THE PLAYERS Championship</option><option value="/golf/pga/leaderboard/2011/290">Wells Fargo Championship</option><option value="/golf/pga/leaderboard/2011/12">Zurich Classic of New Orleans</option><option value="/golf/pga/leaderboard/2011/16">The Heritage</option><option value="/golf/pga/leaderboard/2011/44">Valero Texas Open</option><option value="/golf/pga/leaderboard/2011/15">The Masters</option><option value="/golf/pga/leaderboard/2011/18">Shell Houston Open</option><option value="/golf/pga/leaderboard/2011/11">Arnold Palmer Invitational presented by Mastercard</option><option value="/golf/pga/leaderboard/2011/104">Transitions Championship</option><option value="/golf/pga/leaderboard/2011/380">Puerto Rico Open presented by seepuertorico.com</option><option value="/golf/pga/leaderboard/2011/241">World Golf Championships-Cadillac Championship</option><option value="/golf/pga/leaderboard/2011/10">The Honda Classic</option><option value="/golf/pga/leaderboard/2011/358">Mayakoba Golf Classic at Riviera Maya-Cancun</option><option value="/golf/pga/leaderboard/2011/174">World Golf Championships-Accenture Match Play Cham</option><option value="/golf/pga/leaderboard/2011/8">Northern Trust Open</option><option value="/golf/pga/leaderboard/2011/5">AT&T Pebble Beach National Pro-Am</option><option value="/golf/pga/leaderboard/2011/4">Waste Management Phoenix Open</option><option value="/golf/pga/leaderboard/2011/6">Farmers Insurance Open</option><option value="/golf/pga/leaderboard/2011/3">Bob Hope Classic</option><option value="/golf/pga/leaderboard/2011/7">Sony Open in Hawaii</option><option value="/golf/pga/leaderboard/2011/1">Hyundai Tournament of Champions</option>       </select>
+             </form>
+             </div>
+                  
+      <ul  class="keyValueList" >
+      	<li class="first course"><em>Course:&nbsp;</em><span>TPC River Highlands</span></li>
+      	<li class="par"><em>Par:&nbsp;</em><span>70</span></li>
+      	<li class="last "><em>Yardage:&nbsp;</em><span>6,841</span>
+      <div class="clr"></div>
+      </li>
+      </ul>
+           
+      <div class="clr"></div>
+               </div>
+          
+      <div id="leaderboardtable">
+        <table cellpadding="0" cellspacing="0" border="0" class="sportsTable">
+          <thead>
+            <tr ><th class="position first" colspan="1"><a href="/golf/pga/leaderboard?sort=pos_display">Pos</a></th>
+      <th class="player " colspan="1"><a href="/golf/pga/leaderboard?sort=name">Name</a></th>
+      <th colspan="1" class=""><a href="/golf/pga/leaderboard?sort=rnd_display_1">1</a></th>
+      <th colspan="1" class=""><a href="/golf/pga/leaderboard?sort=rnd_display_2">2</a></th>
+      <th colspan="1" class=""><a href="/golf/pga/leaderboard?sort=rnd_display_3">3</a></th>
+      <th colspan="1" class=""><a href="/golf/pga/leaderboard?sort=rnd_display_4">4</a></th>
+      <th colspan="1" class=""><a href="/golf/pga/leaderboard?sort=today_display">Today</a></th>
+      <th colspan="1" class=""><a href="/golf/pga/leaderboard?sort=completed_holes_display">Thru</a></th>
+      <th class="total selected descending " colspan="1"><a href="/golf/pga/leaderboard?sort=total_display&order=asc">Total</a></th>
+      <th colspan="1" class="last"><a href="/golf/pga/leaderboard?sort=strokes_display">Strokes</a></th></tr>    </thead>
+          <tbody>
+            <tr class="oddRow"><td class="position first">
+      1
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Michael+Bradley/86/scorecard/2011/26">Michael Bradley</a>
+      </td>
+      <td class="">
+      56
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -6
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -6
+      </td>
+      <td class="last">
+      56
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chris+Couch/1661/scorecard/2011/26">Chris Couch</a>
+      </td>
+      <td class="">
+      61
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      17
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      61
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Bryce+Molder/2469/scorecard/2011/26">Bryce Molder</a>
+      </td>
+      <td class="">
+      57
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      57
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/John+Rollins/1221/scorecard/2011/26">John Rollins</a>*
+      </td>
+      <td class="">
+      54
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      54
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Bo+Van+Pelt/1685/scorecard/2011/26">Bo Van Pelt</a>
+      </td>
+      <td class="">
+      54
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      54
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Vijay+Singh/10/scorecard/2011/26">Vijay Singh</a>
+      </td>
+      <td class="">
+      50
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      50
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Fredrik+Jacobson/1056/scorecard/2011/26">Fredrik Jacobson</a>
+      </td>
+      <td class="">
+      46
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      13
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      46
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T2
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Andres+Romero/4088/scorecard/2011/26">Andres Romero</a>*
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -5
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      -5
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Johnson+Wagner/5932/scorecard/2011/26">Johnson Wagner</a>
+      </td>
+      <td class="">
+      58
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      58
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Tom+Gillis/433/scorecard/2011/26">Tom Gillis</a>*
+      </td>
+      <td class="">
+      59
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      59
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kevin+Chappell/9800/scorecard/2011/26">Kevin Chappell</a>*
+      </td>
+      <td class="">
+      55
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      55
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Ben+Crane/3028/scorecard/2011/26">Ben Crane</a>
+      </td>
+      <td class="">
+      55
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      55
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Ryan+Moore/5217/scorecard/2011/26">Ryan Moore</a>
+      </td>
+      <td class="">
+      55
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      55
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Zach+Johnson/2739/scorecard/2011/26">Zach Johnson</a>*
+      </td>
+      <td class="">
+      50
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      50
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T9
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Nick+Watney/5974/scorecard/2011/26">Nick Watney</a>
+      </td>
+      <td class="">
+      51
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -4
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      -4
+      </td>
+      <td class="last">
+      51
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T16
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/John+Merrick/7280/scorecard/2011/26">John Merrick</a>*
+      </td>
+      <td class="">
+      63
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -3
+      </td>
+      <td class="">
+      17
+      </td>
+      <td class="total selected ">
+      -3
+      </td>
+      <td class="last">
+      63
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T16
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Sean+OHair/2876/scorecard/2011/26">Sean O'Hair</a>*
+      </td>
+      <td class="">
+      51
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -3
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      -3
+      </td>
+      <td class="last">
+      51
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T16
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Aaron+Baddeley/3175/scorecard/2011/26">Aaron Baddeley</a>
+      </td>
+      <td class="">
+      52
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -3
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      -3
+      </td>
+      <td class="last">
+      52
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T16
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Lee+Janzen/4/scorecard/2011/26">Lee Janzen</a>
+      </td>
+      <td class="">
+      48
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -3
+      </td>
+      <td class="">
+      13
+      </td>
+      <td class="total selected ">
+      -3
+      </td>
+      <td class="last">
+      48
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T16
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chris+DiMarco/206/scorecard/2011/26">Chris DiMarco</a>
+      </td>
+      <td class="">
+      43
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -3
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      -3
+      </td>
+      <td class="last">
+      43
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T16
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Tim+Petrovic/1297/scorecard/2011/26">Tim Petrovic</a>
+      </td>
+      <td class="">
+      43
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -3
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      -3
+      </td>
+      <td class="last">
+      43
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kris+Blanks/7963/scorecard/2011/26">Kris Blanks</a>
+      </td>
+      <td class="">
+      68
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      F
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      68
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Steve+Flesch/648/scorecard/2011/26">Steve Flesch</a>
+      </td>
+      <td class="">
+      64
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      17
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      64
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Tim+Herron/148/scorecard/2011/26">Tim Herron</a>*
+      </td>
+      <td class="">
+      64
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      17
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      64
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Bill+Lunde/1227/scorecard/2011/26">Bill Lunde</a>
+      </td>
+      <td class="">
+      60
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      60
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jim+Furyk/34/scorecard/2011/26">Jim Furyk</a>*
+      </td>
+      <td class="">
+      57
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      57
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Billy+Mayfair/179/scorecard/2011/26">Billy Mayfair</a>*
+      </td>
+      <td class="">
+      49
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      13
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      49
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/David+Duval/12/scorecard/2011/26">David Duval</a>
+      </td>
+      <td class="">
+      44
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      44
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Joseph+Bramlett/11152/scorecard/2011/26">Joseph Bramlett</a>*
+      </td>
+      <td class="">
+      37
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      10
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      37
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jerod+Turner/9884/scorecard/2011/26">Jerod Turner</a>*
+      </td>
+      <td class="">
+      37
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      10
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      37
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T22
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jim+Herman/9508/scorecard/2011/26">Jim Herman</a>
+      </td>
+      <td class="">
+      33
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -2
+      </td>
+      <td class="">
+      9
+      </td>
+      <td class="total selected ">
+      -2
+      </td>
+      <td class="last">
+      33
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Ben+Curtis/3843/scorecard/2011/26">Ben Curtis</a>
+      </td>
+      <td class="">
+      69
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      F
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      69
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Nick+OHern/1784/scorecard/2011/26">Nick O'Hern</a>
+      </td>
+      <td class="">
+      61
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      61
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Carl+Paulson/1295/scorecard/2011/26">Carl Paulson</a>*
+      </td>
+      <td class="">
+      62
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      62
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Stuart+Appleby/142/scorecard/2011/26">Stuart Appleby</a>*
+      </td>
+      <td class="">
+      58
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      58
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jason+Bohn/3226/scorecard/2011/26">Jason Bohn</a>*
+      </td>
+      <td class="">
+      53
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      53
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Brad+Faxon/38/scorecard/2011/26">Brad Faxon</a>
+      </td>
+      <td class="">
+      45
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      45
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chris+Kirk/9268/scorecard/2011/26">Chris Kirk</a>*
+      </td>
+      <td class="">
+      46
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      46
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Rich+Beem/1665/scorecard/2011/26">Rich Beem</a>*
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Hunter+Haas/3348/scorecard/2011/26">Hunter Haas</a>*
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Ben+Martin/10185/scorecard/2011/26">Ben Martin</a>*
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T32
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/William+McGirt/9341/scorecard/2011/26">William McGirt</a>*
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      -1
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Graham+Delaet/6406/scorecard/2011/26">Graham Delaet</a>
+      </td>
+      <td class="">
+      70
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      F
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      70
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Briny+Baird/1753/scorecard/2011/26">Briny Baird</a>
+      </td>
+      <td class="">
+      66
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      17
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      66
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jay+Williamson/501/scorecard/2011/26">Jay Williamson</a>
+      </td>
+      <td class="">
+      62
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      62
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Troy+Matteson/5973/scorecard/2011/26">Troy Matteson</a>*
+      </td>
+      <td class="">
+      59
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      59
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Lucas+Glover/4809/scorecard/2011/26">Lucas Glover</a>*
+      </td>
+      <td class="">
+      59
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      15
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      59
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Stephen+Ames/391/scorecard/2011/26">Stephen Ames</a>*
+      </td>
+      <td class="">
+      54
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      54
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Corey+Pavin/5/scorecard/2011/26">Corey Pavin</a>*
+      </td>
+      <td class="">
+      51
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      13
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      51
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Shane+Bertsch/232/scorecard/2011/26">Shane Bertsch</a>*
+      </td>
+      <td class="">
+      47
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      47
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Scott+Gordon/7305/scorecard/2011/26">Scott Gordon</a>
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Fran+Quinn/575/scorecard/2011/26">Fran Quinn</a>
+      </td>
+      <td class="">
+      42
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      42
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T43
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Martin+Piller/10034/scorecard/2011/26">Martin Piller</a>*
+      </td>
+      <td class="">
+      43
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      E
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      E
+      </td>
+      <td class="last">
+      43
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Steve+Elkington/6/scorecard/2011/26">Steve Elkington</a>
+      </td>
+      <td class="">
+      71
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      F
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      71
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Scott+Stallings/9183/scorecard/2011/26">Scott Stallings</a>
+      </td>
+      <td class="">
+      71
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      F
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      71
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chris+Riley/1662/scorecard/2011/26">Chris Riley</a>*
+      </td>
+      <td class="">
+      67
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      17
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      67
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Padraig+Harrington/404/scorecard/2011/26">Padraig Harrington</a>*
+      </td>
+      <td class="">
+      55
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      55
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kenny+Perry/22/scorecard/2011/26">Kenny Perry</a>
+      </td>
+      <td class="">
+      56
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      56
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Daniel+Summerhays/4768/scorecard/2011/26">Daniel Summerhays</a>
+      </td>
+      <td class="">
+      43
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      43
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kevin+Kisner/8615/scorecard/2011/26">Kevin Kisner</a>
+      </td>
+      <td class="">
+      43
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      43
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Greg+Chalmers/1049/scorecard/2011/26">Greg Chalmers</a>*
+      </td>
+      <td class="">
+      44
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      44
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Bio+Kim/10357/scorecard/2011/26">Bio Kim</a>*
+      </td>
+      <td class="">
+      36
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      9
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      36
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jarrod+Lyle/7544/scorecard/2011/26">Jarrod Lyle</a>
+      </td>
+      <td class="">
+      36
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      9
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      36
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T54
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Matt+McQuillan/8117/scorecard/2011/26">Matt McQuillan</a>*
+      </td>
+      <td class="">
+      36
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +1
+      </td>
+      <td class="">
+      9
+      </td>
+      <td class="total selected ">
+      +1
+      </td>
+      <td class="last">
+      36
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Paul+Goydos/130/scorecard/2011/26">Paul Goydos</a>
+      </td>
+      <td class="">
+      72
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      F
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      72
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Hunter+Mahan/3531/scorecard/2011/26">Hunter Mahan</a>*
+      </td>
+      <td class="">
+      56
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      56
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Marc+Turnesa/5617/scorecard/2011/26">Marc Turnesa</a>
+      </td>
+      <td class="">
+      57
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      57
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Michael+Allen/1274/scorecard/2011/26">Michael Allen</a>
+      </td>
+      <td class="">
+      53
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      13
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      53
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Joe+Ogilvie/1172/scorecard/2011/26">Joe Ogilvie</a>*
+      </td>
+      <td class="">
+      53
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      13
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      53
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Michael+Sim/5880/scorecard/2011/26">Michael Sim</a>
+      </td>
+      <td class="">
+      48
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      48
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T65
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Andres+Gonzales/8801/scorecard/2011/26">Andres Gonzales</a>
+      </td>
+      <td class="">
+      44
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +2
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      +2
+      </td>
+      <td class="last">
+      44
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T72
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Duffy+Waldorf/36/scorecard/2011/26">Duffy Waldorf</a>*
+      </td>
+      <td class="">
+      66
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +3
+      </td>
+      <td class="">
+      16
+      </td>
+      <td class="total selected ">
+      +3
+      </td>
+      <td class="last">
+      66
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T72
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Nate+Smith/10888/scorecard/2011/26">Nate Smith</a>
+      </td>
+      <td class="">
+      45
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +3
+      </td>
+      <td class="">
+      11
+      </td>
+      <td class="total selected ">
+      +3
+      </td>
+      <td class="last">
+      45
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T72
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Justin+Hicks/4000/scorecard/2011/26">Justin Hicks</a>
+      </td>
+      <td class="">
+      38
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +3
+      </td>
+      <td class="">
+      9
+      </td>
+      <td class="total selected ">
+      +3
+      </td>
+      <td class="last">
+      38
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      T75
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Nathan+Green/3949/scorecard/2011/26">Nathan Green</a>
+      </td>
+      <td class="">
+      59
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +4
+      </td>
+      <td class="">
+      14
+      </td>
+      <td class="total selected ">
+      +4
+      </td>
+      <td class="last">
+      59
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      T75
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Fabian+Gomez/9155/scorecard/2011/26">Fabian Gomez</a>*
+      </td>
+      <td class="">
+      43
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +4
+      </td>
+      <td class="">
+      10
+      </td>
+      <td class="total selected ">
+      +4
+      </td>
+      <td class="last">
+      43
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      77
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Matt+Jones/4932/scorecard/2011/26">Matt Jones</a>
+      </td>
+      <td class="">
+      51
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      +5
+      </td>
+      <td class="">
+      12
+      </td>
+      <td class="total selected ">
+      +5
+      </td>
+      <td class="last">
+      51
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      78
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Fran+Marrello/4323/scorecard/2011/26">Fran Marrello</a>*
+      </td>
+      <td class="">
+      41
+      </td>
+      <td class="">
+      WD
+      </td>
+      <td class="">
+      WD
+      </td>
+      <td class="">
+      WD
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      41
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Michael+Connell/1736/scorecard/2011/26">Michael Connell</a>
+      </td>
+      <td class='tee_time '>
+      12:00 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kent+Jones/383/scorecard/2011/26">Kent Jones</a>
+      </td>
+      <td class='tee_time '>
+      12:00 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Spencer+Levin/6513/scorecard/2011/26">Spencer Levin</a>
+      </td>
+      <td class='tee_time '>
+      12:00 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Troy+Merritt/9921/scorecard/2011/26">Troy Merritt</a>
+      </td>
+      <td class='tee_time '>
+      12:00 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Tag+Ridings/2228/scorecard/2011/26">Tag Ridings</a>
+      </td>
+      <td class='tee_time '>
+      12:00 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kevin+Streelman/6074/scorecard/2011/26">Kevin Streelman</a>
+      </td>
+      <td class='tee_time '>
+      12:00 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Blake+Adams/9059/scorecard/2011/26">Blake Adams</a>
+      </td>
+      <td class='tee_time '>
+      12:11 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kevin+Na/3962/scorecard/2011/26">Kevin Na</a>
+      </td>
+      <td class='tee_time '>
+      12:11 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Alex+Prugh/9163/scorecard/2011/26">Alex Prugh</a>
+      </td>
+      <td class='tee_time '>
+      12:11 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Webb+Simpson/8478/scorecard/2011/26">Webb Simpson</a>
+      </td>
+      <td class='tee_time '>
+      12:11 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Boo+Weekley/4890/scorecard/2011/26">Boo Weekley</a>
+      </td>
+      <td class='tee_time '>
+      12:11 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Charlie+Wi/1310/scorecard/2011/26">Charlie Wi</a>
+      </td>
+      <td class='tee_time '>
+      12:11 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/James+Driscoll/1104/scorecard/2011/26">James Driscoll</a>
+      </td>
+      <td class='tee_time '>
+      12:22 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/JJ+Henry/1020/scorecard/2011/26">J.J. Henry</a>
+      </td>
+      <td class='tee_time '>
+      12:22 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Vaughn+Taylor/994/scorecard/2011/26">Vaughn Taylor</a>
+      </td>
+      <td class='tee_time '>
+      12:22 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Garrett+Willis/995/scorecard/2011/26">Garrett Willis</a>
+      </td>
+      <td class='tee_time '>
+      12:22 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Dean+Wilson/1854/scorecard/2011/26">Dean Wilson</a>
+      </td>
+      <td class='tee_time '>
+      12:22 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Brendon+de+Jonge/6872/scorecard/2011/26">Brendon de Jonge</a>
+      </td>
+      <td class='tee_time '>
+      12:22 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Arjun+Atwal/1830/scorecard/2011/26">Arjun Atwal</a>
+      </td>
+      <td class='tee_time '>
+      12:33 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jerry+Kelly/183/scorecard/2011/26">Jerry Kelly</a>
+      </td>
+      <td class='tee_time '>
+      12:33 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Justin+Leonard/23/scorecard/2011/26">Justin Leonard</a>
+      </td>
+      <td class='tee_time '>
+      12:33 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Rocco+Mediate/168/scorecard/2011/26">Rocco Mediate</a>
+      </td>
+      <td class='tee_time '>
+      12:33 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Heath+Slocum/3282/scorecard/2011/26">Heath Slocum</a>
+      </td>
+      <td class='tee_time '>
+      12:33 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Scott+Verplank/56/scorecard/2011/26">Scott Verplank</a>
+      </td>
+      <td class='tee_time '>
+      12:33 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Keegan+Bradley/10143/scorecard/2011/26">Keegan Bradley</a>
+      </td>
+      <td class='tee_time '>
+      12:44 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Charley+Hoffman/696/scorecard/2011/26">Charley Hoffman</a>
+      </td>
+      <td class='tee_time '>
+      12:44 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Martin+Laird/7279/scorecard/2011/26">Martin Laird</a>
+      </td>
+      <td class='tee_time '>
+      12:44 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Ian+Poulter/2848/scorecard/2011/26">Ian Poulter</a>
+      </td>
+      <td class='tee_time '>
+      12:44 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/David+Toms/163/scorecard/2011/26">David Toms</a>
+      </td>
+      <td class='tee_time '>
+      12:44 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jhonattan+Vegas/5943/scorecard/2011/26">Jhonattan Vegas</a>
+      </td>
+      <td class='tee_time '>
+      12:44 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Anthony+Kim/8802/scorecard/2011/26">Anthony Kim</a>
+      </td>
+      <td class='tee_time '>
+      12:55 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Geoff+Ogilvy/1803/scorecard/2011/26">Geoff Ogilvy</a>
+      </td>
+      <td class='tee_time '>
+      12:55 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Carl+Pettersson/3968/scorecard/2011/26">Carl Pettersson</a>
+      </td>
+      <td class='tee_time '>
+      12:55 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Brandt+Snedeker/6936/scorecard/2011/26">Brandt Snedeker</a>
+      </td>
+      <td class='tee_time '>
+      12:55 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Brendan+Steele/9555/scorecard/2011/26">Brendan Steele</a>
+      </td>
+      <td class='tee_time '>
+      12:55 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Bubba+Watson/4713/scorecard/2011/26">Bubba Watson</a>
+      </td>
+      <td class='tee_time '>
+      12:55 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Matt+Bettencourt/6306/scorecard/2011/26">Matt Bettencourt</a>
+      </td>
+      <td class='tee_time '>
+      1:06 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Craig+Bowden/180/scorecard/2011/26">Craig Bowden</a>
+      </td>
+      <td class='tee_time '>
+      1:06 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/John+Daly/58/scorecard/2011/26">John Daly</a>
+      </td>
+      <td class='tee_time '>
+      1:06 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/JB+Holmes/5998/scorecard/2011/26">J.B. Holmes</a>
+      </td>
+      <td class='tee_time '>
+      1:06 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Trevor+Immelman/1760/scorecard/2011/26">Trevor Immelman</a>
+      </td>
+      <td class='tee_time '>
+      1:06 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Josh+Teater/6182/scorecard/2011/26">Josh Teater</a>
+      </td>
+      <td class='tee_time '>
+      1:06 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Woody+Austin/25/scorecard/2011/26">Woody Austin</a>
+      </td>
+      <td class='tee_time '>
+      1:17 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Joe+Durant/181/scorecard/2011/26">Joe Durant</a>
+      </td>
+      <td class='tee_time '>
+      1:17 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Bobby+Gates/10159/scorecard/2011/26">Bobby Gates</a>
+      </td>
+      <td class='tee_time '>
+      1:17 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kevin+Stadler/5630/scorecard/2011/26">Kevin Stadler</a>
+      </td>
+      <td class='tee_time '>
+      1:17 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Paul+Stankowski/152/scorecard/2011/26">Paul Stankowski</a>
+      </td>
+      <td class='tee_time '>
+      1:17 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Cameron+Tringale/10182/scorecard/2011/26">Cameron Tringale</a>
+      </td>
+      <td class='tee_time '>
+      1:17 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chad+Campbell/1219/scorecard/2011/26">Chad Campbell</a>
+      </td>
+      <td class='tee_time '>
+      1:28 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Brian+Davis/1060/scorecard/2011/26">Brian Davis</a>
+      </td>
+      <td class='tee_time '>
+      1:28 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Tommy+Gainey/9098/scorecard/2011/26">Tommy Gainey</a>
+      </td>
+      <td class='tee_time '>
+      1:28 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Zack+Miller/9376/scorecard/2011/26">Zack Miller</a>
+      </td>
+      <td class='tee_time '>
+      1:28 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chris+Stroud/7297/scorecard/2011/26">Chris Stroud</a>
+      </td>
+      <td class='tee_time '>
+      1:28 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/DJ+Trahan/2267/scorecard/2011/26">D.J. Trahan</a>
+      </td>
+      <td class='tee_time '>
+      1:28 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Ricky+Barnes/3472/scorecard/2011/26">Ricky Barnes</a>
+      </td>
+      <td class='tee_time '>
+      1:39 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Steven+Bowditch/5860/scorecard/2011/26">Steven Bowditch</a>
+      </td>
+      <td class='tee_time '>
+      1:39 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/DJ+Brigman/3068/scorecard/2011/26">D.J. Brigman</a>
+      </td>
+      <td class='tee_time '>
+      1:39 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Brandt+Jobe/1048/scorecard/2011/26">Brandt Jobe</a>
+      </td>
+      <td class='tee_time '>
+      1:39 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/David+Mathis/1119/scorecard/2011/26">David Mathis</a>
+      </td>
+      <td class='tee_time '>
+      1:39 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Michael+Putnam/8064/scorecard/2011/26">Michael Putnam</a>
+      </td>
+      <td class='tee_time '>
+      1:39 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Billy+Andrade/70/scorecard/2011/26">Billy Andrade</a>
+      </td>
+      <td class='tee_time '>
+      1:50 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Patrick+Cantlay/11704/scorecard/2011/26">Patrick Cantlay</a>
+      </td>
+      <td class='tee_time '>
+      1:50 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Christopher+Deforest/11700/scorecard/2011/26">Christopher Deforest</a>
+      </td>
+      <td class='tee_time '>
+      1:50 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Billy+Horschel/8598/scorecard/2011/26">Billy Horschel</a>
+      </td>
+      <td class='tee_time '>
+      1:50 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Sunghoon+Kang/9583/scorecard/2011/26">Sunghoon Kang</a>
+      </td>
+      <td class='tee_time '>
+      1:50 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Colt+Knost/9089/scorecard/2011/26">Colt Knost</a>
+      </td>
+      <td class='tee_time '>
+      1:50 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Chris+Baryla/5992/scorecard/2011/26">Chris Baryla</a>
+      </td>
+      <td class='tee_time '>
+      2:01 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/David+Hearn/5725/scorecard/2011/26">David Hearn</a>
+      </td>
+      <td class='tee_time '>
+      2:01 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Morgan+Hoffmann/10499/scorecard/2011/26">Morgan Hoffmann</a>
+      </td>
+      <td class='tee_time '>
+      2:01 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Aron+Price/7983/scorecard/2011/26">Aron Price</a>
+      </td>
+      <td class='tee_time '>
+      2:01 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Alexandre+Rocha/4018/scorecard/2011/26">Alexandre Rocha</a>
+      </td>
+      <td class='tee_time '>
+      2:01 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kyle+Stanley/9033/scorecard/2011/26">Kyle Stanley</a>
+      </td>
+      <td class='tee_time '>
+      2:01 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/William+Cauley/10999/scorecard/2011/26">William Cauley</a>
+      </td>
+      <td class='tee_time '>
+      2:12 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Scott+Gutschewski/3700/scorecard/2011/26">Scott Gutschewski</a>
+      </td>
+      <td class='tee_time '>
+      2:12 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Jim+Renner/9323/scorecard/2011/26">Jim Renner</a>
+      </td>
+      <td class='tee_time '>
+      2:12 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Will+Strickler/11045/scorecard/2011/26">Will Strickler</a>
+      </td>
+      <td class='tee_time '>
+      2:12 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="oddRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Michael+Thompson/9607/scorecard/2011/26">Michael Thompson</a>
+      </td>
+      <td class='tee_time '>
+      2:12 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr><tr class="evenRow"><td class="position first">
+      -
+      </td>
+      <td class="player ">
+      <a id="" href="/golf/pga/players/Kevin+Tway/9713/scorecard/2011/26">Kevin Tway</a>
+      </td>
+      <td class='tee_time '>
+      2:12 pm</td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="">
+      -
+      </td>
+      <td class="total selected ">
+      -
+      </td>
+      <td class="last">
+      -
+      </td>
+      </tr>              <tr class="oddRow">
+                          <td colspan='10' class='player'>* player started on back nine.</td>        </tr>
+               </tbody>
+        </table>
+      </div>
+        </div>
+      
+      <script type="text/javascript">
+      function goTour()
+      {
+        host = 'sports.yahoo.com';
+        selectObj = document.tour_select.tour_event;
+        index = document.tour_select.tour_event.selectedIndex;
+        
+        url = selectObj.options[index].value;
+      
+        window.location.href = 'http://' + host + url;
+      }
+      </script>
+          </div>
+                <div id="yspSubContentWrapper">
+              <a name="subcontent"></a>
+              <div id="yspAdWrapper">
+        <!-- SpaceID=0 robot -->
+      </div> 
+      
+      <div class="clr"></div>
+            </div>
+              <!-- Start Footer -->
+          <div id="yspFooterWrapper">
+            
+      <div class="footer">
+      <div id="dtk-footernav">
+        <div class="hd">
+      <!-- {ULT:BEGIN-SECTION;sec=bn} --><div id="ysp-bread-nav"><ul id="bread"><li id="bread_sportshome" class="first"><a href="/">Sports  Home</a></li><li id="bread-league-golf" ><a href="/golf">Golf</a></li><li id="leagueleaderboard" class="tertiary"><a href="/golf/pga/leaderboard">Leaderboard</a></li></ul></div><!-- {ULT:END-SECTION;} --></div>
+        <div class="bd">
+              <div class="prop">
+          <!-- {ULT:BEGIN-SECTION;sec=foot-prop} -->
+                <h3>YAHOO! SPORTS</h3>
+            <ul class="first list">
+            <li><a  href="/nfl">NFL</a></li>
+            <li><a  href="/mlb">MLB</a></li>
+            <li><a  href="/nba">NBA</a></li>
+            <li><a  href="/nhl">NHL</a></li>
+            <li><a  href="/golf">Golf</a></li>
+            <li><a  href="/nascar">NASCAR</a></li>
+            <li><a  href="/ten">Tennis</a></li>
+            </ul>
+            <ul class="list">
+            <li><a  href="/ncaaf">NCAA Football</a></li>
+            <li><a  href="/ncaab">NCAA Basketball</a></li>
+            <li><a  href="/ncaaw">NCAA Women's Basketball</a></li>
+            <li><a  href="/sow">World Soccer</a></li>
+            <li><a  href="/wnba">WNBA</a></li>
+            <li><a  href="/mls">MLS</a></li>
+            <li class="standalone"><a  href="/top/gen/moresports">All Sports</a></li>
+            </ul>
+              <!-- {ULT:END-SECTION;} -->
+          </div>
+              <div class="ymg">
+          <!-- {ULT:BEGIN-SECTION;sec=foot-ymg} -->
+                <h3>ALSO ON YAHOO!</h3>
+            <ul class="first list">
+            <li><a  href="http://autos.yahoo.com">Autos</a></li>
+            <li><a  href="http://finance.yahoo.com">Finance</a></li>
+            <li><a  href="http://games.yahoo.com">Games</a></li>
+            <li><a  href="http://groups.yahoo.com">Groups</a></li>
+            <li><a  href="http://health.yahoo.com">Health</a></li>
+            </ul>
+            <ul class="list">
+            <li><a  href="http://mail.yahoo.com">Mail</a></li>
+            <li><a  href="http://maps.yahoo.com">Maps</a></li>
+            <li><a  href="http://movies.yahoo.com">Movies</a></li>
+            <li><a  href="http://music.yahoo.com">Music</a></li>
+            <li><a  href="http://my.yahoo.com">My Yahoo!</a></li>
+            </ul>
+            <ul class="list">
+            <li><a  href="http://news.yahoo.com">News</a></li>
+            <li><a  href="http://shopping.yahoo.com">Shopping</a></li>
+            <li><a  href="/">Sports</a></li>
+            <li><a  href="http://tech.yahoo.com">Tech</a></li>
+            <li><a  href="http://travel.yahoo.com">Travel</a></li>
+            <li><a  href="http://tv.yahoo.com">TV</a></li>
+            <li class="standalone"><a  href="http://docs.yahoo.com/docs/family/more/">All Y! Services</a></li>
+            </ul>
+              <!-- {ULT:END-SECTION;} -->
+          </div>
+              <div class="todo">
+          <!-- {ULT:BEGIN-SECTION;sec=foot-todo} -->
+                <h3>THINGS YOU CAN DO</h3>
+            <ul class="first list">
+                    <li><a  href="http://add.yahoo.com/fast/help/sports/cgi_feedback">Give Feedback</a></li>
+                    <li><a  href="http://sports.yahoo.com/top/gen/getscores">Get Scores on My Yahoo!</a></li>
+              <li><a  href="http://sports.yahoo.com/fantasy">Play Fantasy Sports</a></li>
+              <li><a  href="/top/rss">Subscribe to RSS News Feeds</a></li>
+              <li><a  href="http://www.citizensports.com/" target="sports">Citizen Sports</a></li>
+              <li><a class="shop"  href="http://yahoosports.teamfanshop.com/">Buy Sports Merchandise</a></li>
+            </ul>
+              <!-- {ULT:END-SECTION;} -->
+          </div>
+            </div>
+        <h5>Yahoo! News Network</h5>
+        <div class="ft">
+              <!-- {ULT:BEGIN-SKIP} -->
+          <div class="copyright">
+            <p>
+              <!-- SpaceID=0 robot -->
+              <!-- {ULT:END-SKIP} --><!-- {ULT:BEGIN-SECTION;sec=foot} --> - <a  href="/top/gen/sitemap">Site Map</a>
+                    </p>
+            <p>Copyright &copy; 2011 PGA. All Rights Reserved.</p><p>Copyright &copy; 2011 <a href="http://www.stats.com">STATS LLC</a>. All Rights Reserved.</p>    </div>
+          <!-- {ULT:END-SECTION;} -->
+        </div>
+      </div>
+      
+      
+      <script>
+        (function() {
+            try{
+                var USERS_RATIO = 100;  // 0 for 0%, 50 for 50% and 100 for 100%
+                var REQ_PER_USER = 1;
+                var URLS = [
+                    "http://beta.news.yahoo.com/",
+                    "http://beta.news.yahoo.com/2-elements-officially-added-periodic-table-152603589.html",
+                    "http://beta.news.yahoo.com/alabama-governor-signs-nations-toughest-immigration-law-160234529.html",
+                    "http://beta.news.yahoo.com/analysis-economic-risk-too-great-full-japan-nuclear-124139388.html",
+                    "http://beta.news.yahoo.com/apes-actress-estella-warren-4-counts-la-000317114.html",
+                    "http://beta.news.yahoo.com/ap-live-blog-game-5-nba-finals-014508041.html",
+                    "http://beta.news.yahoo.com/archive/",
+                    "http://beta.news.yahoo.com/arkansas-atheists-sue-over-bus-ads-god-free-205659302.html",
+                    "http://beta.news.yahoo.com/asia/",
+                    "http://beta.news.yahoo.com/audit-mars-mission-faces-hurdles-launch-211124489.html",
+                    "http://beta.news.yahoo.com/baseball/",
+                    "http://beta.news.yahoo.com/basketball/",
+                    "http://beta.news.yahoo.com/blogs/",
+                    "http://beta.news.yahoo.com/blogs/cutline/",
+                    "http://beta.news.yahoo.com/blogs/exclusive/",
+                    "http://beta.news.yahoo.com/blogs/fast-fix/",
+                    "http://beta.news.yahoo.com/blogs/lookout/",
+                    "http://beta.news.yahoo.com/blogs/upshot/",
+                    "http://beta.news.yahoo.com/boston-2b-pedroia-bone-bruise-kneecap-004102651.html",
+                    "http://beta.news.yahoo.com/bundesliga-remains-europes-most-profitable-league-191528656.html",
+                    "http://beta.news.yahoo.com/comics/",
+                    "http://beta.news.yahoo.com/comics/graffiti-slideshow/",
+                    "http://beta.news.yahoo.com/contributor-network/",
+                    "http://beta.news.yahoo.com/cross-eyed-opossum-makes-german-debut-175532329.html",
+                    "http://beta.news.yahoo.com/education/",
+                    "http://beta.news.yahoo.com/elisabetta-canalis-declares-she-married-despite-boyfriend-george-201614112.html",
+                    "http://beta.news.yahoo.com/exclusive-clinton-talks-possible-move-world-bank-212019976.html",
+                    "http://beta.news.yahoo.com/factbox-budget-players-common-ground-050915058.html",
+                    "http://beta.news.yahoo.com/football/",
+                    "http://beta.news.yahoo.com/frazier-lockout-ends-vikings-ready-092502557.html",
+                    "http://beta.news.yahoo.com/gingrich-campaign-tatters-top-aides-resign-210921757.html",
+                    "http://beta.news.yahoo.com/heat-related-demand-causes-detroit-power-outages-230009871.html",
+                    "http://beta.news.yahoo.com/internet/",
+                    "http://beta.news.yahoo.com/jaleel-white-steve-urkel-returns-screen-judy-moody-025300276.html",
+                    "http://beta.news.yahoo.com/lightning-hit-sends-77-cadets-miss-hospitals-211025436.html",
+                    "http://beta.news.yahoo.com/local/",
+                    "http://beta.news.yahoo.com/most-popular/",
+                    "http://beta.news.yahoo.com/movies/",
+                    "http://beta.news.yahoo.com/ms-produce-gets-better-spot-234801765.html",
+                    "http://beta.news.yahoo.com/nieses-strong-effort-lifts-mets-030147735.html",
+                    "http://beta.news.yahoo.com/nj-governor-christie-proposes-public-private-schools-plan-000107217.html",
+                    "http://beta.news.yahoo.com/n-z-museums-clamour-celebrity-sheep-025050569.html",
+                    "http://beta.news.yahoo.com/opinion/",
+                    "http://beta.news.yahoo.com/religion/",
+                    "http://beta.news.yahoo.com/science/",
+                    "http://beta.news.yahoo.com/soccer/",
+                    "http://beta.news.yahoo.com/special-report-japan-wheres-next-nuclear-weak-111749698.html",
+                    "http://beta.news.yahoo.com/sports/",
+                    "http://beta.news.yahoo.com/stars-collide-bachmann-vs-palin-095100199.html",
+                    "http://beta.news.yahoo.com/super-8-opening-one-day-early-twitter-promo-055815751.html",
+                    "http://beta.news.yahoo.com/taxes/",
+                    "http://beta.news.yahoo.com/taxes-menu-debt-reduction-talks-050915932.html",
+                    "http://beta.news.yahoo.com/us/",
+                    "http://beta.news.yahoo.com/u-sanctions-iranian-police-rights-abuses-024152013.html",
+                    "http://beta.news.yahoo.com/world/",
+                    "http://beta.news.yahoo.com/photos/",
+                    "http://beta.news.yahoo.com/photos/gulliver-s-kingdom-slideshow-slideshow/",
+                    "http://beta.news.yahoo.com/photos/steven-spielberg-wife-kate-capshaw-pose-premiere-movie-photo-055813278.html",
+                    "http://beta.news.yahoo.com/photos/turtles-provide-clues-to-gulf-spill-impact-slideshow/",
+                    "http://beta.news.yahoo.com/photos/u-secretary-state-hillary-clinton-arrives-news-conference-photo-212019184.html",
+                    "http://beta.news.yahoo.com/photos/weather-slideshow/",
+                    "http://beta.news.yahoo.com/sitemap/"
+                ];
+      
+      
+                if (Math.random()*100 < USERS_RATIO) {
+                    for (var i=0;i<REQ_PER_USER;i++){
+                       var j = Math.floor(Math.random()*URLS.length);
+                       var url = URLS[j];
+                       URLS.splice(j,1);
+                       url = url + ((url.indexOf('?') > 0) ? '&' : '?') + "_traffic_simulation=1";
+                       document.write('<im' + 'g src="'+url+'" width="1" height="1" style="position:absolute;"/>');
+                    }
+                }
+            }catch(e){}
+        })();
+       </script>
+      
+      <iframe src="http://www.pgatour.com/.element/ssi/ads/2.0/gdyn_pgatour.html" width=1 height=2 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no style="display:block;height:0;"></iframe></div>
+      <script type="text/javascript">           YAHOO.Sports.oFlyout.oFantasy = {
+                   my_teams : {	h5 : 'My Teams and Leagues', ul : []},
+                    other_games : {	h5  : 'Fantasy Games',
+                                    text : '<ul class="other-games"><li class="odd"><a href="http://football.fantasysports.yahoo.com/">Football</a></li><li class="even"><a href="http://baseball.fantasysports.yahoo.com/b1">Baseball</a></li><li class="odd"><a href="http://golf.fantasysports.yahoo.com/golf">Golf</a></li><li class="even"><a href="http://racing.fantasysports.yahoo.com/auto">Auto Racing</a></li><li class="odd"><a href="http://fantasysports.yahoo.com/">More &raquo;</a></li></ul>' }, more_link : false    };</script>
+          </div>
+          <!-- End Footer -->
+        </div>
+      </body>
+      </html>
+      <!-- fe134.sports.mud.yahoo.com uncompressed/chunked Thu Jun 23 19:33:36 PDT 2011 -->
+
+    http_version: "1.1"
