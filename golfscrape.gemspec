@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Golfscrape::VERSION
   s.authors     = ["Johnny Khai Nguyen"]
   s.email       = ["johnnyn@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/phuphighter/golfscrape"
   s.summary     = %q{Ruby class to scrape PGA Tour golf data}
   s.description = %q{Use this gem to get PGA Tour data for tournaments, world rankings, and the leaderboard}
 
