@@ -2,9 +2,11 @@
 
 Ruby class to get data from the PGA Tour
 
-    Leaderboard from Yahoo
-    Rankings from SportsNetwork
-    Events from ESPN
+Leaderboard from Yahoo
+
+Rankings from SportsNetwork
+
+Events from ESPN
 
 ## Installation
 
