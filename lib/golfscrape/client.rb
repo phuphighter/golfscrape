@@ -60,11 +60,10 @@ module Golfscrape
       url = "http://espn.go.com/golf/schedule"
       doc = Nokogiri::HTML(open(url))
       
-      events_curr = doc.css('table.tablehead')[0].css('tr')
-      
+      events_curr = doc.css('table.tablehead')[0].css('tr')      
       events_curr.each do |event|
         begin
-          unless events.index(event) == 0 || events.index(event) == 1
+          unless events_curr.index(event) == 0 || events_curr.index(event) == 1
             @dates = event.css('td').css('nobr').first.children.first.content.split(" - ")
             @start_date = Time.parse(@dates.first)
             @end_date = Time.parse(@dates.last)
