@@ -59,6 +59,24 @@ module Golfscrape
       response = []
       url = "http://espn.go.com/golf/schedule"
       doc = Nokogiri::HTML(open(url))
+      
+      events_curr = doc.css('table.tablehead')[0].css('tr')
+      
+      events_curr.each do |event|
+        begin
+          unless events.index(event) == 0 || events.index(event) == 1
+            @dates = event.css('td').css('nobr').first.children.first.content.split(" - ")
+            @start_date = Time.parse(@dates.first)
+            @end_date = Time.parse(@dates.last)
+            @name = event.css('td')[1].children.first.content
+            @location = event.css('td')[1].css('em').first.children.first.content
+          end
+        rescue
+        end
+        
+        response << Hashie::Mash.new(:start_date => @start_date, :end_date => @end_date, :name => @name, :location => @location)
+      end
+      
       events = doc.css('table.tablehead')[2].css('tr')
       events.each do |event|
         begin
