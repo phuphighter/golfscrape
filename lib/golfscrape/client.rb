@@ -17,9 +17,15 @@ module Golfscrape
           @third = player.css('td')[4].children.last.content.gsub("\n", "") 
           @fourth = player.css('td')[5].children.last.content.gsub("\n", "") 
           @today = player.css('td')[6].children.last.content.gsub("\n", "") 
-          @thru = player.css('td')[7].children.last.content.gsub("\n", "") 
-          @total = player.css('td')[8].children.last.content.gsub("\n", "") 
-          @strokes = player.css('td')[9].children.last.content.gsub("\n", "") 
+          @thru = player.css('td')[7].children.last.content.gsub("\n", "") unless player.css('td')[7].attributes["class"].value.match(/total/)
+          @total = player.css('td.total').children.last.content.gsub("\n", "") 
+          
+          if player.css('td.earnings')
+            @strokes = player.css('td')[8].children.last.content.gsub("\n", "") 
+          else            
+            @strokes = player.css('td')[9].children.last.content.gsub("\n", "") 
+          end
+          
         rescue
         end
         
