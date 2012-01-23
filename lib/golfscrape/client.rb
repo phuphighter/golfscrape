@@ -73,7 +73,7 @@ module Golfscrape
             @dates = event.css('td').css('nobr').first.children.first.content.split(" - ")
             @start_date = Time.parse(@dates.first)
             @end_date = Time.parse(@dates.last)
-            @name = event.css('td')[1].children.first.content
+            @name = event.css('td')[1].children.first.children.empty? ? event.css('td')[1].children.first.content : event.css('td')[1].children.first.children.first.content            
             @location = event.css('td')[1].css('em').first.children.first.content
           end
         rescue
@@ -89,7 +89,7 @@ module Golfscrape
             @dates = event.css('td').css('nobr').first.children.first.content.split(" - ")
             @start_date = Time.parse(@dates.first)
             @end_date = Time.parse(@dates.last)
-            @name = event.css('td')[1].children.first.content
+            @name = event.css('td')[1].children.first.children.empty? ? event.css('td')[1].children.first.content : event.css('td')[1].children.first.children.first.content
             @location = event.css('td')[1].css('em').first.children.first.content
           end
         rescue
