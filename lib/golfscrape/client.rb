@@ -10,27 +10,27 @@ module Golfscrape
       doc = Nokogiri::HTML(open(url))
       doc.css('div#leaderboardtable table.sportsTable').first.css('tbody tr').each do |player|
         begin
-          @position = player.css('td.position').children.last.content.gsub("\n", "")
-          @name = player.css('td.player').css('a').first.children.last.content
-          @first = player.css('td')[2].children.last.content.gsub("\n", "")
-          @second = player.css('td')[3].children.last.content.gsub("\n", "") 
-          @third = player.css('td')[4].children.last.content.gsub("\n", "") 
-          @fourth = player.css('td')[5].children.last.content.gsub("\n", "") 
-          @today = player.css('td')[6].children.last.content.gsub("\n", "") 
-          @thru = player.css('td')[7].children.last.content.gsub("\n", "") unless player.css('td')[7].attributes["class"].value.match(/total/)
-          @total = player.css('td.total').children.last.content.gsub("\n", "") 
-          
+          @position = player.css('td.position').children.last.try(:content).try(:gsub, "\n", "")
+          @name = player.css('td.player').css('a').first.children.last.try(:content)
+          @first = player.css('td')[2].children.last.try(:content).try(:gsub, "\n", "")
+          @second = player.css('td')[3].children.last.try(:content).try(:gsub, "\n", "")
+          @third = player.css('td')[4].children.last.try(:content).try(:gsub, "\n", "")
+          @fourth = player.css('td')[5].children.last.try(:content).try(:gsub, "\n", "")
+          @today = player.css('td')[6].children.last.try(:content).try(:gsub, "\n", "")
+          @thru = player.css('td')[7].children.last.try(:content).try(:gsub, "\n", "") unless player.css('td')[7].attributes["class"].value.match(/total/)
+          @total = player.css('td.total').children.last.try(:content).try(:gsub, "\n", "")
+
           if player.css('td.earnings')
-            @strokes = player.css('td')[8].children.last.content.gsub("\n", "") 
+            @strokes = player.css('td')[8].children.last.try(:content).try(:gsub, "\n", "")
           else            
-            @strokes = player.css('td')[9].children.last.content.gsub("\n", "") 
+            @strokes = player.css('td')[9].children.last.try(:content).try(:gsub, "\n", "")
           end
-          
+
+          response << Hashie::Mash.new(:position => @position, :name => @name, :first_round => @first, :second_round => @second, :third_round => @third,
+                                      :fourth_round => @fourth, :today => @today, :thru => @thru, :total => @total, :strokes => @strokes)
+
         rescue
-        end
-        
-        response << Hashie::Mash.new(:position => @position, :name => @name, :first_round => @first, :second_round => @second, :third_round => @third,
-                                     :fourth_round => @fourth, :today => @today, :thru => @thru, :total => @total, :strokes => @strokes)
+        end  
       end
       
       response
