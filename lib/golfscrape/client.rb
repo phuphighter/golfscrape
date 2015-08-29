@@ -1,6 +1,6 @@
 module Golfscrape
-  
-  class Client                
+
+  class Client
     def initialize
     end
 
@@ -22,7 +22,7 @@ module Golfscrape
 
           if player.css('td.earnings')
             @strokes = player.css('td')[8].children.last.try(:content).try(:gsub, "\n", "")
-          else            
+          else
             @strokes = player.css('td')[9].children.last.try(:content).try(:gsub, "\n", "")
           end
 
@@ -30,58 +30,59 @@ module Golfscrape
                                       :fourth_round => @fourth, :today => @today, :thru => @thru, :total => @total, :strokes => @strokes)
 
         rescue
-        end  
+        end
       end
-      
+
       response
     end
-    
+
     def rankings
       response = []
-      url = "http://www.sportsnetwork.com/merge/tsnform.aspx?c=azcentral&page=golf-m/stand/WORLD-MEN-GOLF-RANK.htm" 
+      url = "http://www.cbssports.com/golf/rankings/world-rankings"
       doc = Nokogiri::HTML(open(url))
-      doc.css('table')[1].css('table tr').each do |player|
+      doc.css('div.col-8 table')[0].css('tr').each do |player|
         begin
-          
-          unless player.css('td').first.content == "Rank" || player.css('td').first.content.match(/NOTES/)
+
+          unless player.css('td').first.content == "Rk" || player.css('td').first.content.match(/NOTES/)
             @rank = player.css('td').first.content
-            @name = player.css('td')[1].content
-            @country = player.css('td')[2].content
-            @avg = player.css('td')[3].content
-            @points = player.css('td')[4].content
-            @events = player.css('td')[5].content
+            @name = player.css('td')[2].content
+            @country = player.css('td')[3].css('img').first['alt']
+            @wins = player.css('td')[4].content
+            @top10 = player.css('td')[5].content
+            @top25 = player.css('td')[6].content
+            @avg = player.css('td').last.content
           end
-        
+
         rescue
         end
-        
+
         response << Hashie::Mash.new(:rank => @rank, :name => @name, :country => @country, :avg => @avg, :points => @points, :events => @events)
       end
-      
+
       response.uniq
-    end 
-    
+    end
+
     def events
       response = []
       url = "http://espn.go.com/golf/schedule"
       doc = Nokogiri::HTML(open(url))
-      
-      events_curr = doc.css('table.tablehead')[0].css('tr')      
+
+      events_curr = doc.css('table.tablehead')[0].css('tr')
       events_curr.each do |event|
         begin
           unless events_curr.index(event) == 0 || events_curr.index(event) == 1
             @dates = event.css('td').css('nobr').first.children.first.content.split(" - ")
             @start_date = Time.parse(@dates.first)
             @end_date = Time.parse(@dates.last)
-            @name = event.css('td')[1].children.first.children.empty? ? event.css('td')[1].children.first.content : event.css('td')[1].children.first.children.first.content            
+            @name = event.css('td')[1].children.first.children.empty? ? event.css('td')[1].children.first.content : event.css('td')[1].children.first.children.first.content
             @location = event.css('td')[1].css('em').first.children.first.content
           end
         rescue
         end
-        
+
         response << Hashie::Mash.new(:start_date => @start_date, :end_date => @end_date, :name => @name, :location => @location)
       end
-      
+
       events = doc.css('table.tablehead')[2].css('tr')
       events.each do |event|
         begin
@@ -94,12 +95,12 @@ module Golfscrape
           end
         rescue
         end
-        
+
         response << Hashie::Mash.new(:start_date => @start_date, :end_date => @end_date, :name => @name, :location => @location)
       end
-      
+
       response.uniq
-    end   
+    end
 
   end
 end
