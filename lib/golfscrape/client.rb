@@ -38,19 +38,17 @@ module Golfscrape
     
     def rankings
       response = []
-      url = "http://www.sportsnetwork.com/merge/tsnform.aspx?c=azcentral&page=golf-m/stand/WORLD-MEN-GOLF-RANK.htm" 
+      url = "http://www.owgr.com/ranking?pageNo=1&pageSize=300&country=All" 
       doc = Nokogiri::HTML(open(url))
-      doc.css('table')[1].css('table tr').each do |player|
+      doc.css('#ranking_table')[1].css('table tr').each do |player|
         begin
-          
-          unless player.css('td').first.content == "Rank" || player.css('td').first.content.match(/NOTES/)
-            @rank = player.css('td').first.content
-            @name = player.css('td')[1].content
-            @country = player.css('td')[2].content
-            @avg = player.css('td')[3].content
-            @points = player.css('td')[4].content
-            @events = player.css('td')[5].content
-          end
+              
+          @rank = player.css('td').first.content
+          @name = player.css('td')[4].content
+          @country = player.css('td')[3].children.last.attributes["title"].value
+          @avg = player.css('td')[5].content
+          @points = player.css('td')[6].content
+          @events = player.css('td')[7].content    
         
         rescue
         end
