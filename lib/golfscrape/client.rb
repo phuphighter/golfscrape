@@ -40,7 +40,7 @@ module Golfscrape
       response = []
       url = "http://www.owgr.com/ranking?pageNo=1&pageSize=300&country=All" 
       doc = Nokogiri::HTML(open(url))
-      doc.css('#ranking_table')[1].css('table tr').each do |player|
+      doc.css('#ranking_table').css('table tr').each do |player|
         begin
               
           @rank = player.css('td').first.content
