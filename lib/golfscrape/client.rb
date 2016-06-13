@@ -45,7 +45,7 @@ module Golfscrape
               
           @rank = player.css('td').first.content
           @name = player.css('td')[4].content
-          @country = player.css('td')[3].children.last.attributes["title"].value
+          @country = player.css('td')[3].children.first.attributes["title"].value
           @avg = player.css('td')[5].content
           @points = player.css('td')[6].content
           @events = player.css('td')[7].content    
